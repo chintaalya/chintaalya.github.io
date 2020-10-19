@@ -1,0 +1,112 @@
+header {
+    left: 0%;
+    right: 0%;
+    top: 0;
+    bottom: 89.19%;
+    background: #D8EEFB;
+    position: fixed;
+}
+header nav {
+    left: 0%;
+    right: 0%;
+    top: 0;
+    bottom: 89.45%;
+    background: #ffffff;
+    position: fixed;
+}
+.navbar {
+    font-family: Khand;
+    color: #074074;
+    margin: 18px 95px;
+    font-size: x-large;
+    font-weight: bold;
+    display: inline-flex;
+}
+nav img {
+    width: 29px;
+    position: absolute;
+    margin: 17px 50px;
+}
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 20px;
+    float: right;
+}
+nav ul :hover {
+    color: #56AF2C;
+}
+nav li {
+    display: inline;
+}
+nav li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 32px;
+    font-family: Mitr;
+    color: #074074;
+}
+#home img {
+    float: left;
+    width: 550px;
+    margin: 190px 0px 0px 70px;
+}
+.judul {
+    font-family: Lemon;
+    font-size: xx-large;
+    color: #074074;
+    float: right;
+    margin: 235px 150px 0px 0px;
+}
+#home p {
+    font-family: Mulish;
+    float: right;
+    text-align: center;
+    margin: 25px 180px 0px 0px;
+    color: #074074;
+}
+button.register{
+    border-radius: 30px;
+	border: 1px solid #074074;
+	background-color: #074074;
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-weight: bold;
+	font-size: 14px;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+    margin: 35px 0px 0px 165px;
+    float: center;
+}
+button.login{
+    border-radius: 30px;
+	border: 5px solid #074074;
+	background-color: #FFFFFF;
+    color: #074074;
+    font-family: Mulish;
+    font-weight: bold;
+	font-size: 14px;
+	padding: 10px 70px;
+	letter-spacing: 1px;
+    margin: 35px 135px 0px 0px;
+    float: right;
+}
+#about {
+    background-color: #D8EEFB;
+    margin: 1680px 0px 0px 0px; 
+}
+#programs {
+    background-color: #ffffff;
+}
+#contactus {
+    background-color: #D8EEFB;
+}
+footer {
+    left: 0%;
+    right: 0%;
+    top: 0;
+    bottom: 80.05%;
+    background-color: #D8EEFB;
+    color: white;
+    text-align: left;
+}
