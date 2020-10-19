@@ -46,17 +46,25 @@ nav li a {
     font-family: Mitr;
     color: #074074;
 }
+body {
+    display: block;
+    margin: 0px;
+}
+#home {
+    background: url("../images/assets/bg-image1.svg");
+    width: 100%;
+}
 #home img {
     float: left;
     width: 550px;
-    margin: 190px 0px 0px 70px;
+    margin: 220px 0px 0px 70px;
 }
 .judul {
     font-family: Lemon;
     font-size: xx-large;
     color: #074074;
     float: right;
-    margin: 235px 150px 0px 0px;
+    margin: 265px 150px 0px 0px;
 }
 #home p {
     font-family: Mulish;
@@ -75,7 +83,7 @@ button.register{
 	font-size: 14px;
 	padding: 12px 45px;
 	letter-spacing: 1px;
-    margin: 35px 0px 0px 165px;
+    margin: 35px 0px 220px 165px;
     float: center;
 }
 button.login{
