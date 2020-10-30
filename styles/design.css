@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+}
+nav {
+    padding: 20px;
+    background: #ffffff;
+    position: fixed;
+    border-bottom: 3pt solid #D8EEFB;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+#nav-brand img {
+    display: inline-block;
+    width: 35px;
+    padding: 0px 20px 0px 40px;
+    float: left;
+}
+#nav-menu a {
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    padding: 6px 30px;
+    font-family: Mitr;
+    font-size: 100%;
+    color: #074074;
+}
+#nav-menu a:hover {
+    color: #56AF2C;
+}
+#nav-profil img{
+    display: inline-block;
+    float: left;
+    padding: 2px 0px 0px 500px;
+    width: 40px;
+}
+#nav-profil img:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
+#nav-welcoming a {
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+    font-family: Mulish;
+    font-weight: bold;
+    color: #074074;
+}
+#nav-logout img {
+    display: inline-block;
+    float: right;
+    padding: 5px 80px 0px 0px;
+    width: 30px;
+}
+#nav-logout img:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
+main {
+    background-image: url("../images/assets/bg-image3.svg");
+    margin-bottom: 7px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+main p {
+    padding: 100px 0 10px 0 ;
+    font-family: Mulish;
+    font-size: 25px;
+    color: #56AF2C;
+    display: block;
+    text-align: center;
+}
+main img {
+    display: inline-block;
+    margin: 13px 0 40px 0;
+    width: 23%;
+}
+main a :hover {
+    filter: drop-shadow(0 0 10px grey);
+}
+#left {
+    float: left;
+    margin-left: 275px;
+}
+#right {
+    float: right;
+    margin-right: 275px;
+}
+footer {
+    background-color: #D8EEFB;
+    overflow: hidden;
+}
+#foot-left {
+    display: inline-block;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+#foot-right {
+    display: inline-block;
+    float: right;
+    margin: 10px 60px;
+}
+#brand {
+    margin: 0px;
+    font-family: Khand;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #074074;
+}
+#desc {
+    margin: 0px;
+    font-family: Mulish;
+    color: #074074;
+}
+#foot-right p {
+    margin: 5px;
+    padding-top: 10px;
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #074074;
+}
+#foot-right img {
+    width: 25px;
+    padding: 10px;
+} 
