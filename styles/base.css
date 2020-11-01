@@ -3,6 +3,7 @@ html,body {
   height:100%;
   width:100%;
   margin:0px;
+  background-color:#d1e9ff; 
 
 }
 body {
@@ -92,6 +93,15 @@ input[type="password"] {
     font-size: 16px;
 }
 
+#cbx1 {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #108DFF;
+    border-radius: 2px;
+}
+
 a {
 	color: #108DFF;
 	font-size: 16px;
@@ -126,11 +136,11 @@ button.continue {
 
 .mini-icon {
     display: block;
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: 27.5%;
-  margin-right: 72.5%;
-  width: 40%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 27.5%;
+    margin-right: 72.5%;
+    width: 40%;
 }
 
 label {
@@ -144,15 +154,17 @@ label {
     margin: 9px 7px 3px;
 }
 
-.row7 :hover {
+.row7 a {
     border-radius: 20px;
-	border: 1px solid #108DFF;
-	background-color: #108DFF;
-	color: #FFFFFF;
-	font-size: 14px;
+	color: #108DFF;
+    font-family: NTR;
+    font-size: 16px;
 	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-    transition: transform 80ms ease-in;
-    margin: 5px 5px 0;
+    letter-spacing: 1px;
+}
+
+.row7 a:hover {
+    background-color: #108DFF;
+    color: #fff;
+    padding: 4px 132px;
 }

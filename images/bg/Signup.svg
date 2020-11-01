@@ -1,0 +1,83 @@
+<svg width="1680" height="1050" viewBox="0 0 1680 1050" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1680" height="1050">
+<path d="M0 0H1680V1050H0V0Z" fill="#D8EEFB"/>
+<path d="M0 0H1680V1050H0V0Z" fill="#D8EEFB"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1698.04 993.224C1700 991.271 1700 988.105 1698.04 986.153L1628.04 916.149C1626.09 914.196 1622.92 914.196 1620.97 916.149L1550.97 986.153C1549.01 988.105 1549.01 991.271 1550.97 993.224L1620.97 1063.23C1622.92 1065.18 1626.09 1065.18 1628.04 1063.23L1698.04 993.224ZM1669.76 993.224C1671.71 991.271 1671.71 988.105 1669.76 986.153L1627.33 943.726C1625.38 941.774 1622.22 941.774 1620.26 943.726L1577.84 986.153C1575.88 988.105 1575.88 991.271 1577.84 993.224L1620.26 1035.65C1622.22 1037.6 1625.38 1037.6 1627.33 1035.65L1669.76 993.224Z" fill="#86C5FE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M309.311 1154.79C313.16 1154.79 315.565 1150.63 313.641 1147.29L63.2026 713.522C61.2781 710.189 56.4669 710.189 54.5423 713.522L-195.896 1147.29C-197.82 1150.63 -195.415 1154.79 -191.566 1154.79H309.311ZM199.283 1091.27C203.132 1091.27 205.537 1087.1 203.613 1083.77L63.2027 840.571C61.2782 837.238 56.467 837.238 54.5425 840.571L-85.8677 1083.77C-87.7922 1087.1 -85.3866 1091.27 -81.5375 1091.27H199.283Z" fill="#FFFF00"/>
+<path d="M932.671 385.103L1008.67 461.103" stroke="#86C5FE" stroke-width="15" stroke-linecap="round"/>
+<path d="M1008.67 385.103L932.671 461.103" stroke="#86C5FE" stroke-width="15" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1662.95 484.387C1870.93 484.387 2039.53 315.787 2039.53 107.809C2039.53 -100.17 1870.93 -268.77 1662.95 -268.77C1454.97 -268.77 1286.37 -100.17 1286.37 107.809C1286.37 315.787 1454.97 484.387 1662.95 484.387ZM1662.95 353.104C1798.42 353.104 1908.24 243.282 1908.24 107.809C1908.24 -27.6628 1798.42 -137.485 1662.95 -137.485C1527.48 -137.485 1417.66 -27.6628 1417.66 107.809C1417.66 243.282 1527.48 353.104 1662.95 353.104Z" fill="#6CF133"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="-60" y="176" width="210" height="210">
+<rect width="208.597" height="208.597" transform="matrix(-1 0 0 1 149.428 176.505)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M32.9978 247.208L102.697 317.409" stroke="white" stroke-width="10"/>
+<path d="M-1.60133 247.709L68.0983 317.91" stroke="white" stroke-width="10"/>
+<path d="M-36.7019 247.208L33.4992 317.91" stroke="white" stroke-width="10"/>
+<path d="M-70.9324 248.13L-1.60134 317.91" stroke="white" stroke-width="10"/>
+<path d="M102.697 247.709L171.805 317.024" stroke="white" stroke-width="10"/>
+<path d="M67.9937 248.13L137.296 317.409" stroke="white" stroke-width="10"/>
+<path d="M-36.1821 178.278L32.9977 247.208" stroke="white" stroke-width="10"/>
+<path d="M-70.9138 178.278L-1.60138 247.709" stroke="white" stroke-width="10"/>
+<path d="M33.4662 178.278L102.697 247.709" stroke="white" stroke-width="10"/>
+<path d="M-1.45071 178.278L68.0982 248.211" stroke="white" stroke-width="10"/>
+<path d="M136.795 248.712L205.725 317.981" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.4316" y2="-5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 103.891 177.462)" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.4316" y2="-5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 138.299 177.462)" stroke="white" stroke-width="10"/>
+<path d="M67.3864 179.235L136.795 248.712" stroke="white" stroke-width="10"/>
+<path d="M102.697 317.409L171.865 386.876" stroke="white" stroke-width="10"/>
+<path d="M67.5967 317.409L137.134 386.876" stroke="white" stroke-width="10"/>
+<path d="M33.4989 317.91L102.402 386.876" stroke="white" stroke-width="10"/>
+<path d="M-2.10303 317.409L67.6707 386.876" stroke="white" stroke-width="10"/>
+<path d="M-36.2007 317.91L32.939 386.876" stroke="white" stroke-width="10"/>
+<path d="M137.296 317.409L206.597 386.876" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.4316" y2="-5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 -1.42285 385.103)" stroke="white" stroke-width="10"/>
+</g>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="891" y="945" width="210" height="210">
+<rect width="208.597" height="208.597" transform="matrix(-1 0 0 1 1100.15 945.708)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask2)">
+<path d="M983.72 1016.41L1053.42 1086.61" stroke="white" stroke-width="10"/>
+<path d="M949.121 1016.91L1018.82 1087.11" stroke="white" stroke-width="10"/>
+<path d="M914.021 1016.41L984.222 1087.11" stroke="white" stroke-width="10"/>
+<path d="M879.791 1017.33L949.122 1087.11" stroke="white" stroke-width="10"/>
+<path d="M845.058 1017.33L914.522 1087.11" stroke="white" stroke-width="10"/>
+<path d="M1053.42 1016.91L1122.53 1086.23" stroke="white" stroke-width="10"/>
+<path d="M1018.72 1017.33L1088.02 1086.61" stroke="white" stroke-width="10"/>
+<path d="M914.541 947.481L983.72 1016.41" stroke="white" stroke-width="10"/>
+<path d="M879.809 947.481L949.122 1016.91" stroke="white" stroke-width="10"/>
+<path d="M845.077 947.481L914.522 1016.91" stroke="white" stroke-width="10"/>
+<path d="M984.189 947.481L1053.42 1016.91" stroke="white" stroke-width="10"/>
+<path d="M949.272 947.481L1018.82 1017.41" stroke="white" stroke-width="10"/>
+<path d="M1087.52 1017.92L1156.45 1087.18" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.4316" y2="-5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 1054.61 946.665)" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.4316" y2="-5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 1089.02 946.665)" stroke="white" stroke-width="10"/>
+<path d="M1018.11 948.438L1087.52 1017.92" stroke="white" stroke-width="10"/>
+</g>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="787" y="-138" width="323" height="328">
+<ellipse rx="161" ry="163.5" transform="matrix(-1 0 0 1 948.254 26.1065)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask3)">
+</g>
+<mask id="mask4" mask-type="alpha" maskUnits="userSpaceOnUse" x="787" y="-138" width="323" height="328">
+<ellipse rx="161" ry="163.5" transform="matrix(-1 0 0 1 948.254 26.1065)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask4)">
+<path d="M888.035 -27.0644L1020.24 88.582" stroke="white" stroke-width="20"/>
+<path d="M821.279 -28.3935L954.791 88.5821" stroke="white" stroke-width="20"/>
+<path d="M756.037 -26.938L889.344 88.5819" stroke="white" stroke-width="20"/>
+<path d="M690.537 -27.653L822.254 87.6065" stroke="white" stroke-width="20"/>
+<path d="M1021.55 -27.0644L1153.22 87.812" stroke="white" stroke-width="20"/>
+<path d="M954.791 -28.3935L1088.3 88.5821" stroke="white" stroke-width="20"/>
+<path d="M1085.69 -25.7351L1217.99 89.4056" stroke="white" stroke-width="20"/>
+<path d="M1020.24 88.582L1153.34 204.156" stroke="white" stroke-width="20"/>
+<path d="M954.791 88.5821L1087.02 204.156" stroke="white" stroke-width="20"/>
+<path d="M889.344 88.5819L1020.7 204.156" stroke="white" stroke-width="20"/>
+<path d="M822.254 87.6064L955.2 203.44" stroke="white" stroke-width="20"/>
+<line y1="-10" x2="174.568" y2="-10" transform="matrix(0.753597 0.657337 0.753597 -0.657337 761.471 85.0751)" stroke="white" stroke-width="20"/>
+<path d="M1088.3 88.5821L1219.66 204.156" stroke="white" stroke-width="20"/>
+</g>
+</g>
+</svg>
