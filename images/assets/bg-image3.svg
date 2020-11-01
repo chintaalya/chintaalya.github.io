@@ -1,0 +1,75 @@
+<svg width="1680" height="1166" viewBox="0 0 1680 1166" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.7">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1680" height="1166">
+<rect opacity="0.6" width="1680" height="1165.82" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="-95" y="43" width="372" height="378">
+<ellipse rx="186" ry="188.374" transform="matrix(-1 0 0 1 91 232.254)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1)">
+</g>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="-95" y="43" width="372" height="378">
+<ellipse rx="186" ry="188.374" transform="matrix(-1 0 0 1 91 232.254)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask2)">
+<path d="M21.4294 170.994L174.161 304.234" stroke="#074074" stroke-width="20"/>
+<path d="M-55.6925 169.463L98.5514 304.234" stroke="#074074" stroke-width="20"/>
+<path d="M-131.064 171.14L22.9422 304.234" stroke="#074074" stroke-width="20"/>
+<path d="M175.673 170.994L327.796 303.347" stroke="#074074" stroke-width="20"/>
+<path d="M98.5516 169.463L252.796 304.234" stroke="#074074" stroke-width="20"/>
+<path d="M-131.023 37.0962L21.4303 170.994" stroke="#074074" stroke-width="20"/>
+<path d="M22.6208 37.0961L175.673 170.994" stroke="#074074" stroke-width="20"/>
+<path d="M-54.4062 37.0963L100.063 170.994" stroke="#074074" stroke-width="20"/>
+<path d="M249.771 172.526L402.625 305.183" stroke="#074074" stroke-width="20"/>
+<line y1="-10" x2="201.438" y2="-10" transform="matrix(0.754484 0.656319 0.754484 -0.656319 179.803 33.943)" stroke="#074074" stroke-width="20"/>
+<path d="M97.4488 38.9323L249.771 172.526" stroke="#074074" stroke-width="20"/>
+<path d="M174.161 304.234L327.93 437.391" stroke="#074074" stroke-width="20"/>
+<path d="M98.5515 304.234L251.312 437.391" stroke="#074074" stroke-width="20"/>
+<path d="M22.9413 304.234L174.694 437.39" stroke="#074074" stroke-width="20"/>
+<path d="M-54.5654 303.11L99.0234 436.567" stroke="#074074" stroke-width="20"/>
+<line y1="-10" x2="201.438" y2="-10" transform="matrix(0.754484 0.656319 0.754484 -0.656319 -124.787 300.194)" stroke="#074074" stroke-width="20"/>
+<path d="M252.796 304.234L404.548 437.391" stroke="#074074" stroke-width="20"/>
+</g>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="1361" y="396" width="400" height="347">
+<path d="M1556.92 398.925C1558.85 395.599 1563.65 395.599 1565.57 398.925L1759.94 734.655C1761.87 737.988 1759.46 742.16 1755.61 742.16H1366.88C1363.03 742.16 1360.63 737.988 1362.56 734.655L1556.92 398.925Z" fill="black"/>
+</mask>
+<g mask="url(#mask3)">
+<path d="M1429.57 511.096L1575.98 638.822" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1355.64 509.628L1503.5 638.822" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1283.39 511.235L1431.02 638.821" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1577.43 511.095L1723.26 637.971" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1503.5 509.628L1651.36 638.822" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1283.43 382.739L1429.57 511.096" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1430.71 382.738L1577.43 511.095" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1356.88 382.739L1504.95 511.095" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1648.46 512.564L1794.99 639.731" stroke="#FFFF00" stroke-width="9"/>
+<line y1="-4.5" x2="193.101" y2="-4.5" transform="matrix(0.754484 0.656319 0.754484 -0.656319 1581.39 379.716)" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1502.44 384.499L1648.46 512.563" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1575.98 638.822L1723.39 766.467" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1503.5 638.822L1649.94 766.467" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1431.02 638.821L1576.49 766.467" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1356.72 637.744L1503.95 765.678" stroke="#FFFF00" stroke-width="9"/>
+<line y1="-4.5" x2="193.101" y2="-4.5" transform="matrix(0.754484 0.656319 0.754484 -0.656319 1289.41 634.948)" stroke="#FFFF00" stroke-width="9"/>
+<path d="M1651.36 638.822L1796.84 766.467" stroke="#FFFF00" stroke-width="9"/>
+</g>
+<path d="M0 979.326L75.7823 1054.9" stroke="#F0C30F" stroke-width="15" stroke-linecap="round"/>
+<path d="M75.7822 979.326L-0.000122786 1054.9" stroke="#F0C30F" stroke-width="15" stroke-linecap="round"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 735.192 988.757)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 789.467 934.629)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 680.923 1042.88)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 626.646 1097.01)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 572.377 1151.13)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 791.083 1043.37)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 845.358 989.243)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 736.814 1097.49)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 682.535 1151.62)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 841.694 1093.97)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 895.969 1039.84)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 787.425 1148.09)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 896.381 1149.89)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 950.657 1095.77)" fill="#F16133"/>
+<ellipse rx="14.9549" ry="14.9598" transform="matrix(0.70807 -0.706142 0.70807 0.706142 1002.58 1145.17)" fill="#F16133"/>
+</g>
+</g>
+</svg>
