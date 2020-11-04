@@ -67,14 +67,38 @@ main p{
     font-size: 40px;
     color: #074074;
 }
-.right {
-    text-align: center;
+.row{
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-left: 20px;
 }
-.right p {
+.row .left{
+    float: left;
+    width: 45%;
+    /* margin: 35px; */
+}
+iframe{
+    height: 280px;
+    width: 500px;
+    margin-left: 120px;  
+    border-width: 20px;
+    border-radius: 5px;
+    border-color: #88D840;
+    border-style: solid;
+}
+.row .right{
+    float: right;
+    width: 30%;
+    height: 20%;
+    margin-top: 20px;
+    margin-right: 220px;
+}
+.row .right p {
     padding: 0;
     font-family: Mulish;
-    text-indent: 40px;
     font-size: 20px;
+    text-indent: 40px;
     text-align: justify;
     color: #074074;
 }
@@ -86,16 +110,18 @@ button{
     font-family: Mulish;
 	font-size: 20px;
 	padding: 10px 50px;
-	letter-spacing: 1px;
-    float: center;
-    margin: 10px 0 25px 0;
+    letter-spacing: 1px;
+    margin: 10px 0 25px 80px;
 }
 button:hover{
     filter: drop-shadow(0 0 5px grey);
 }
 footer {
+    bottom: 0px;
     background-color: #D8EEFB;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 #foot-left {
     display: inline-block;
