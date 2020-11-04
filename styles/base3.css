@@ -37,7 +37,7 @@ form {
     position: relative;
 	overflow: hidden;
 	width: 480px;
-    height: 420px;
+    height: 440px;
 	max-width: 100%;
     min-height: 420px;
     margin-top: 148.5px;
@@ -117,7 +117,7 @@ input[type="text"] {
 	padding: 6px 45px;
 	letter-spacing: 1px;
     transition: transform 80ms ease-in;
-    margin-left: 50px;
+    margin-left: 54px;
     width: 90%;
 
 }
