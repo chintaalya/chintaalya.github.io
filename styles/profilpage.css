@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    background-image: url("../images/assets/bg-image4.svg");
+    background-color: #D8EEFB;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+nav {
+    padding: 20px;
+    background: #ffffff;
+    position: fixed;
+    border-bottom: 3pt solid #D8EEFB;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+#nav-brand img {
+    display: inline-block;
+    width: 35px;
+    padding: 0px 20px 0px 40px;
+    float: left;
+}
+#nav-menu a {
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    padding: 6px 30px;
+    font-family: Mitr;
+    font-size: 100%;
+}
+.non-active {
+    color: #074074;
+}
+.active {
+    color: #56AF2C;
+}
+#nav-menu a:hover {
+    color: #56AF2C;
+}
+#nav-profil img{
+    display: inline-block;
+    float: right;
+    padding-top: 2px;
+    width: 40px;
+}
+#nav-profil img:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
+#nav-welcoming a {
+    display: inline-block;
+    float: right;
+    padding: 10px 25px;
+    font-family: Mulish;
+    font-weight: bold;
+    color: #074074;
+}
+#nav-logout img {
+    display: inline-block;
+    float: right;
+    padding: 5px 80px 0px 10px;
+    width: 30px;
+}
+#nav-logout img:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
