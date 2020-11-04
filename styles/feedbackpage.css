@@ -1,5 +1,9 @@
 body {
     margin: 0px;
+    background-image: url("../images/assets/bg-image5.svg");
+    background-color: #FFFFFF;
+    width: 100%;
+    background-size: cover;
 }
 nav {
     padding: 20px;
@@ -60,35 +64,7 @@ nav {
     filter: drop-shadow(0 0 5px grey);
 }
 main {
-    margin-bottom: 7px;
-    background-image: url("../images/assets/bg-image3.svg");
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
-}
-main p {
-    padding: 100px 0 10px 0 ;
-    font-family: Mulish;
-    font-size: 25px;
-    color: #56AF2C;
-    display: block;
-    text-align: center;
-}
-main img {
-    display: inline-block;
-    margin: 13px 0 40px 0;
-    width: 23%;
-}
-main a :hover {
-    filter: drop-shadow(0 0 10px grey);
-}
-#left {
-    float: left;
-    margin-left: 275px;
-}
-#right {
-    float: right;
-    margin-right: 275px;
+    padding-top: 650px;
 }
 footer {
     background-color: #D8EEFB;

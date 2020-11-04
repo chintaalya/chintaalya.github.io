@@ -1,41 +1,46 @@
-header {
+body {
+    margin: 0px;
+}
+nav {
+    display: inline-block;
+    padding: 20px;
     background: #ffffff;
     position: fixed;
-    border-bottom: 4pt solid #D8EEFB;
+    border-bottom: 3pt solid #D8EEFB;
     top: 0px;
     width: 100%;
     overflow: hidden;
 }
-.navbar {
+#nav-brand {
+    display: inline-block;
+    float: left;
+}
+#nav-brand img {
+    display: inline-block;
+    width: 35px;
+    padding: 0px 20px 0px 40px;
+    float: left;
+}
+#nav-brand p {
+    margin: 0;
     font-family: Khand;
     color: #074074;
-    margin: 18px 95px;
     font-size: x-large;
     font-weight: bold;
-    display: inline-flex;
+    display: inline-block;
 }
-nav img {
-    width: 29px;
-    position: absolute;
-    margin: 17px 50px;
-}
-nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 25px 20px 0px 20px;
+#nav-menu {
+    display: inline-block;
     float: right;
+    padding-right: 50px;
 }
-nav ul :hover {
-    color: #56AF2C;
-}
-nav li {
-    display: inline;
-}
-nav li a {
+#nav-menu a {
+    display: inline-block;
     text-decoration: none;
-    text-align: center;
-    padding: 32px;
+    float: right;
+    padding: 6px 30px;
     font-family: Mitr;
+    font-size: 100%;
     color: #074074;
 }
 body {
@@ -43,6 +48,7 @@ body {
     margin: 0px;
 }
 #home {
+    padding-top: 95px;
     background: url("../images/assets/bg-image1.svg");
     width: 100%;
     margin-top: 5%;
@@ -94,6 +100,7 @@ button.login{
     float: right;
 }
 #about {
+    padding-top: 95px;
     background: url("../images/assets/bg-image2.svg") #D8EEFB;
     width: 100%;
     background-size: cover;
@@ -132,11 +139,45 @@ button.login{
     background-color: #D8EEFB;
 }
 footer {
-    left: 0%;
-    right: 0%;
-    top: 0;
-    bottom: 80.05%;
     background-color: #D8EEFB;
-    color: white;
-    text-align: left;
+    overflow: hidden;
+}
+#foot-left {
+    display: inline-block;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+#foot-right {
+    display: inline-block;
+    float: right;
+    margin: 10px 60px;
+}
+#brand {
+    margin: 0px;
+    font-family: Khand;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #074074;
+}
+#desc {
+    margin: 0px;
+    font-family: Mulish;
+    color: #074074;
+}
+#foot-right p {
+    margin: 5px;
+    padding-top: 10px;
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #074074;
+}
+#foot-right img {
+    width: 25px;
+    padding: 10px;
+} 
+#foot-right img:hover {
+    filter: drop-shadow(0 0 5px grey);
 }
