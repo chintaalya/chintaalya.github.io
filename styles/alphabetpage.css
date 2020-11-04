@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+}
+nav {
+    padding: 20px;
+    background: #ffffff;
+    position: fixed;
+    border-bottom: 3pt solid #D8EEFB;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+#nav-brand img {
+    display: inline-block;
+    width: 35px;
+    padding: 0px 20px 0px 40px;
+    float: left;
+}
+#nav-menu a {
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    padding: 6px 30px;
+    font-family: Mitr;
+    font-size: 100%;
+}
+.non-active {
+    color: #074074;
+}
+.active {
+    color: #56AF2C;
+}
+#nav-menu a:hover {
+    color: #56AF2C;
+}
+#nav-profil img{
+    display: inline-block;
+    float: left;
+    padding: 2px 0px 0px 500px;
+    width: 40px;
+}
+#nav-profil img:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
+#nav-welcoming a {
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+    font-family: Mulish;
+    font-weight: bold;
+    color: #074074;
+}
+#nav-logout img {
+    display: inline-block;
+    float: right;
+    padding: 5px 80px 0px 0px;
+    width: 30px;
+}
+#nav-logout img:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
+main {
+    padding-top: 80px;
+    text-align: center;
+}
+main p {
+    display: block;
+    text-align: center;
+    color: #074074;
+    font-family: "Poetsen One";
+    font-size: 50px;
+}
+main p img {
+    width: 100px;
+    padding-right: 20px;
+}
+main div img {
+    width: 140px;
+    padding: 0 13px 25px 13px;
+}
+main div img:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
+button{
+    border-radius: 50px;
+	border: 1px solid #88D840;
+	background-color: #88D840;
+    color: #FFFFFF;
+    font-family: Mulish;
+	font-size: 20px;
+	padding: 10px 50px;
+	letter-spacing: 1px;
+    float: center;
+    margin: 10px 0 25px 0;
+}
+button:hover{
+    filter: drop-shadow(0 0 5px grey);
+}
+footer {
+    background-color: #D8EEFB;
+    overflow: hidden;
+}
+#foot-left {
+    display: inline-block;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+#foot-right {
+    display: inline-block;
+    float: right;
+    margin: 10px 60px;
+}
+#brand {
+    margin: 0px;
+    font-family: Khand;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #074074;
+}
+#desc {
+    margin: 0px;
+    font-family: Mulish;
+    color: #074074;
+}
+#foot-right p {
+    margin: 5px;
+    padding-top: 10px;
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #074074;
+}
+#foot-right img {
+    width: 25px;
+    padding: 10px;
+} 
+#foot-right img:hover {
+    filter: drop-shadow(0 0 5px grey);
+}
