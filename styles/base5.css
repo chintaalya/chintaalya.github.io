@@ -52,7 +52,7 @@ h1 {
     padding-bottom: 4px;
 }
 
-row {
+.row {
     display: block;
     width: 100%;
     clear: both;
