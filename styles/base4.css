@@ -190,8 +190,18 @@ button.continue {
 }
 
 .tos a {
-    font-size: 16px;
+    font-size: 17px;
     margin-left: 70px;
+}
+
+
+a {
+    font-family: 'NTR';
+	color: #108DFF;
+	font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+	margin: 15px 0;
 }
 
 .sidefront {
