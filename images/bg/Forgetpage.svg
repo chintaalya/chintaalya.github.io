@@ -1,0 +1,41 @@
+<svg width="1680" height="1050" viewBox="0 0 1680 1050" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1680" height="1050">
+<path d="M0 0H1680V1050H0V0Z" fill="#D8EEFB"/>
+<path d="M0 0H1680V1050H0V0Z" fill="#D8EEFB"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1259.79 808.3C1259.79 805.539 1257.55 803.3 1254.79 803.3H629.789C627.028 803.3 624.789 805.539 624.789 808.3V1433.3C624.789 1436.06 627.028 1438.3 629.789 1438.3H1254.79C1257.55 1438.3 1259.79 1436.06 1259.79 1433.3V808.3ZM1143.28 924.814C1143.28 922.052 1141.04 919.814 1138.28 919.814H740.477C737.716 919.814 735.477 922.052 735.477 924.814V1322.61C735.477 1325.37 737.716 1327.61 740.477 1327.61H1138.28C1141.04 1327.61 1143.28 1325.37 1143.28 1322.61V924.814Z" fill="#86C5FE"/>
+<path d="M675.646 148.151C705.344 118.452 747.771 176.435 774.287 149.919C800.804 123.402 744.792 79.0048 772.519 51.2776C800.246 23.5504 845.555 78.6509 873.282 50.9237C901.01 23.1965 838.28 -14.4833 872.928 -49.1315" stroke="#FFFF00" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1507.32 1070.78C1537.01 1041.09 1579.44 1099.07 1605.96 1072.55C1632.47 1046.04 1576.46 1001.64 1604.19 973.911C1631.92 946.184 1677.23 1001.28 1704.95 973.557C1732.68 945.83 1669.95 908.15 1704.6 873.502" stroke="#FFFF00" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65.1865 871.496L141.187 947.496" stroke="#FFFF00" stroke-width="15" stroke-linecap="round"/>
+<path d="M141.187 871.496L65.1865 947.496" stroke="#FFFF00" stroke-width="15" stroke-linecap="round"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="1433" y="-48" width="323" height="328">
+<ellipse rx="161" ry="163.5" transform="matrix(-1 0 0 1 1594.1 116.365)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1)">
+</g>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="1433" y="-48" width="323" height="328">
+<ellipse rx="161" ry="163.5" transform="matrix(-1 0 0 1 1594.1 116.365)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask2)">
+<path d="M1533.88 63.1942L1666.09 178.841" stroke="white" stroke-width="20"/>
+<path d="M1467.13 61.8651L1600.64 178.841" stroke="white" stroke-width="20"/>
+<path d="M1401.89 63.3206L1535.19 178.84" stroke="white" stroke-width="20"/>
+<path d="M1336.39 62.6056L1468.1 177.865" stroke="white" stroke-width="20"/>
+<path d="M1667.4 63.1942L1799.07 178.071" stroke="white" stroke-width="20"/>
+<path d="M1600.64 61.8651L1734.15 178.841" stroke="white" stroke-width="20"/>
+<path d="M1401.92 -53.0232L1533.88 63.1942" stroke="white" stroke-width="20"/>
+<path d="M1335.6 -53.0232L1467.13 61.865" stroke="white" stroke-width="20"/>
+<path d="M1534.92 -53.0232L1667.4 63.1942" stroke="white" stroke-width="20"/>
+<path d="M1468.24 -53.0232L1601.95 63.1942" stroke="white" stroke-width="20"/>
+<line y1="-10" x2="174.568" y2="-10" transform="matrix(0.753597 0.657337 0.753597 -0.657337 1670.97 -55.76)" stroke="white" stroke-width="20"/>
+<path d="M1599.69 -51.4296L1731.53 64.5235" stroke="white" stroke-width="20"/>
+<path d="M1666.09 178.841L1799.19 294.414" stroke="white" stroke-width="20"/>
+<path d="M1600.64 178.841L1732.87 294.414" stroke="white" stroke-width="20"/>
+<path d="M1535.19 178.841L1666.55 294.414" stroke="white" stroke-width="20"/>
+<path d="M1468.1 177.865L1601.05 293.699" stroke="white" stroke-width="20"/>
+<line y1="-10" x2="174.568" y2="-10" transform="matrix(0.753597 0.657337 0.753597 -0.657337 1407.32 175.334)" stroke="white" stroke-width="20"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M332.665 137.393C336.514 137.393 338.92 133.227 336.995 129.893L68.0808 -335.88C66.1563 -339.214 61.345 -339.214 59.4205 -335.88L-209.494 129.893C-211.419 133.227 -209.013 137.393 -205.164 137.393H332.665ZM214.791 69.3383C218.64 69.3383 221.046 65.1716 219.121 61.8383L68.0809 -199.771C66.1564 -203.105 61.3451 -203.105 59.4206 -199.771L-91.6198 61.8383C-93.5443 65.1716 -91.1386 69.3383 -87.2896 69.3383H214.791Z" fill="#6DF333"/>
+</g>
+</svg>

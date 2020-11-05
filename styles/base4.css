@@ -1,0 +1,231 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #d1e9ff;
+}
+
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color:#108DFF; 
+    background-image: url('../images/bg/Forgetpage.svg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+}
+
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+    height: 100%;
+    text-align: center;
+
+}
+
+.forget {
+    background-color: #fff;
+	border-radius: 50px;
+  	box-shadow: 27px 3px 110px rgba(0,0,0,0.1), 
+		    27px 3px 110px rgba(0,0,0,0.1);
+    position: relative;
+	overflow: hidden;
+	width: 580px;
+    height: 500px;
+	max-width: 100%;
+    min-height: 420px;
+    margin-top: 98.5px;
+    margin-left: 79px;
+    /* margin: auto; */
+}
+
+.row {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    margin: 10px 0 0 0;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px #108DFF;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.row1 {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.row1 p{
+    font-family: 'NTR';
+    float: left;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+}
+
+
+.row2 {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-bottom: 16px;
+}
+
+.row2 p{
+    margin-top: 4px;
+}
+
+.row p{
+    float: left;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'NTR';
+    font-size: 20px;
+}
+
+label{
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-family: 'NTR';
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-left: 25px;
+}
+
+input[type="email"] {
+	background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+	padding: 12px 15px;
+	margin: 2px 14px 0 0;
+    width: 90%;
+    height: 24px;
+}
+
+input[type="text"] {
+	background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+	margin: 2px 2px 0 0;
+    width: 12%;
+    height: 56px;
+}
+
+.proceed {
+    border-radius: 40px;
+	border: 1px solid #108DFF;
+	background-color: #108DFF;
+    color: #FFFFFF;
+    font-family: 'NTR';
+    font-weight: 200;
+	font-size: 20px;
+	padding: 4px 35px;
+	letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    margin: 30px 0 0 10px;
+    width: 40%;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.continue {
+    width: 80%;
+}
+
+.line1of2 {
+    float: left;
+    font-family: 'NTR';
+    font-size: large;
+}
+
+.inputof4 {
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: left;
+}
+
+.tos {
+    width: 70%;
+    margin-top: 5px;
+    float: right;
+    right: 0;
+}
+
+.tos a {
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.sidefront {
+    margin-top: 98.5px;
+    margin-left: 109px;
+}
+
+.dinoimg {
+    display: block;
+    margin-top: 78.5px;
+}
+
+.slogan {
+    color: #0759A3;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px #0759A3;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.slogan p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1em;
+}
+
+.dino {
+    display: block;
+    margin-left: 40px;
+    margin-top: 15px;
+}
