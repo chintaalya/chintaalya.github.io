@@ -59,8 +59,8 @@ h1{
     margin: 40px 0 0 0;
     text-shadow: 0px 1px, 1px 0px, 1px 1px #108DFF;
     text-align: left;
-    padding-top: 21px;
-    padding-bottom: 12px;
+    padding-top: 19px;
+    padding-bottom: 14px;
 }
 
 .row1 {
@@ -101,7 +101,7 @@ h1{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-family: 'NTR';
-    font-size: 20px;
+    font-size: 18px;
 }
 
 input[type="email"] {
@@ -170,6 +170,10 @@ button.continue {
 input.code {
     text-align: center;
     font-size: 22px;
+}
+
+input.email-name {
+    font-size: 20px;
 }
 
 .tos {

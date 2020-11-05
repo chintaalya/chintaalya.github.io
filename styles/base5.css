@@ -45,15 +45,6 @@ form {
     /* margin: auto; */
 }
 
-/* h1{
-    font-size: 40px;
-    text-transform: capitalize;
-    font-family: 'Poppins';
-    font-weight: bolder;
-    margin: 10px 0 0 0;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px #108DFF;
-    text-align: left;
-} */
 h1 {
     font-size: 40px;
     margin-right: 118px;
@@ -153,6 +144,10 @@ button:focus {
 
 button.continue {
     width: 80%;
+}
+
+input.pass {
+    font-size: 20px;
 }
 
 .sidefront {
