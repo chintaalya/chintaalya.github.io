@@ -48,23 +48,22 @@ body {
     margin: 0px;
 }
 #home {
-    padding-top: 95px;
-    background: url("../images/assets/bg-image1.svg");
+    padding-top: 25px;
+    background: url("/images/bg/Bgpart1.svg");
     width: 100%;
-    margin-top: 5%;
     background-size: cover;
 }
 #home img {
     float: left;
     width: 550px;
-    margin: 220px 0px 0px 70px;
+    margin: 220px 0px 0px 120px;
 }
 .judul {
     font-family: Lemon;
     font-size: xx-large;
     color: #074074;
     float: right;
-    margin: 245px 150px 0px 0px;
+    margin: 245px 160px 0px 0px;
 }
 #home p {
     font-family: Mulish;
@@ -83,8 +82,9 @@ button.register{
 	font-size: 14px;
 	padding: 12px 45px;
 	letter-spacing: 1px;
-    margin: 35px 0px 220px 165px;
+    margin: 35px 0px 220px 125px;
     float: center;
+    transition: transform 80ms ease-in;
 }
 button.login{
     border-radius: 30px;
@@ -98,9 +98,10 @@ button.login{
 	letter-spacing: 1px;
     margin: 35px 135px 0px 0px;
     float: right;
+    transition: transform 80ms ease-in;
 }
 #about {
-    padding-top: 95px;
+    padding-top: 10px;
     background: url("../images/assets/bg-image2.svg") #D8EEFB;
     width: 100%;
     background-size: cover;
@@ -134,9 +135,10 @@ button.login{
     background-color: #ffffff;
     margin: 0px;
 }
-#programs 
 #contactus {
+    background: url(/images/bg/Bgpart4.svg);
     background-color: #D8EEFB;
+    font-family: 'Niramit';
 }
 footer {
     background-color: #D8EEFB;
@@ -180,4 +182,170 @@ footer {
 } 
 #foot-right img:hover {
     filter: drop-shadow(0 0 5px grey);
+}
+
+#nav-menu a{
+    color: #074074;
+}
+
+#nav-menu a:hover{
+    color: #56AF2C;
+}
+
+#nav-menu a.active{
+    color: #56AF2C;
+}
+
+#programs {
+    padding: 90px 0 98px 0;
+    font-family: Skranji;
+    color: #074074;
+    text-align: center;
+    font-size: 25px;
+    height: 500px;
+}
+
+#programs h3{
+    font-size: 30px;
+    margin-block-end: 2.5em;
+    margin-inline-start: 5%;
+}
+
+#watching{
+    display: inline-block;
+    width:48%;
+}
+#watching div{
+    font-size: 20px;
+    font-family: Mulish;
+    line-height: 2em;
+    display: inline-block;
+    text-align: center;
+    width: 55%;
+}
+#watching a{
+    font-family: Skranji;
+}
+#watching img{
+    display: inline-block;
+    width: 40%;
+}
+#listening{
+    display: inline-block;
+    width:48%;
+}
+#listening div{
+    font-size: 20px;
+    font-family: Mulish;
+    line-height: 2em;
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+}
+#listening a{
+    font-family: Skranji;
+}
+#listening img{
+    display: inline-block;
+    width: 30%;
+}
+
+.contact-left{
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+}
+.contact-left p{
+    font-family: Skranji;
+    font-size: 40px;
+    color:#074074;
+}
+.contact-right{
+    color: #074074;
+    display: block;
+    float: right;
+    width: fit-content;
+    background-color: #ffffff;
+    margin: 90px 170px 5px 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contactus-form{
+    border: 10px solid  #d8eefb;
+    border-radius: 20px;
+    padding: 10px;
+    width: 450px;
+}
+
+.contactus-form p.mid{
+    text-align: center;
+    font-size: 22px;
+    margin-block-start: 5px;
+    margin-block-end: 14px;
+}
+
+.row{
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.row p{
+    font-weight: 600;
+    margin-left: 80px;
+    margin-block-start: 4px;
+    margin-block-end: 2px;
+}
+
+.row input[type="email"]{
+    background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 2px 14px 0 0;
+    width: 60%;
+    margin-inline-start: 70px;
+}
+
+.row input[type="text"]{
+    background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 2px 14px 0 0;
+    width: 60%;
+    height: 40px;
+    margin-inline-start: 70px;
+}
+
+button.send {
+    font-family: 'NTR';
+    font-weight: 700;
+    border-radius: 20px;
+    color: #074074;
+    border: 1px solid #D8EEFB;
+    background-color: #D8EEFB;
+    font-size: 18px;
+    padding: 0px 45px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    margin: 20px 5px 10px 73px;
+    width: 65%;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.continue {
+    width: 80%;
 }

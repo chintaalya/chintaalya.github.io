@@ -1,0 +1,92 @@
+<svg width="1541" height="655" viewBox="90 180 1641 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.6">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1680" height="1044">
+<rect y="0.16333" width="1680" height="1043.84" fill="#D8EEFB"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M228.688 340.185C228.688 337.424 226.449 335.185 223.688 335.185H125C122.239 335.185 120 337.424 120 340.185V438.235C120 440.996 122.239 443.235 125 443.235H223.688C226.449 443.235 228.688 440.996 228.688 438.235V340.185ZM208.745 360.011C208.745 357.25 206.507 355.011 203.745 355.011H143.946C141.184 355.011 138.946 357.25 138.946 360.011V419.401C138.946 422.162 141.184 424.401 143.946 424.401H203.745C206.507 424.401 208.745 422.162 208.745 419.401V360.011Z" fill="#FFFF00"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M998.739 1074.01C1002.59 1074.01 1005 1069.83 1003.06 1066.5L948.71 972.909C946.783 969.59 941.99 969.59 940.063 972.909L885.71 1066.5C883.774 1069.83 886.179 1074.01 890.033 1074.01H998.739ZM971.969 1058.64C975.824 1058.64 978.229 1054.47 976.293 1051.13L948.71 1003.64C946.783 1000.32 941.99 1000.32 940.063 1003.64L912.479 1051.13C910.544 1054.47 912.949 1058.64 916.803 1058.64H971.969Z" fill="#074074"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1379.34 286.162C1409.36 286.162 1433.69 261.975 1433.69 232.137C1433.69 202.3 1409.36 178.113 1379.34 178.113C1349.33 178.113 1325 202.3 1325 232.137C1325 261.975 1349.33 286.162 1379.34 286.162ZM1379.34 267.328C1398.89 267.328 1414.74 251.573 1414.74 232.138C1414.74 212.703 1398.89 196.947 1379.34 196.947C1359.79 196.947 1343.95 212.703 1343.95 232.138C1343.95 251.573 1359.79 267.328 1379.34 267.328Z" fill="#6CF133"/>
+<path d="M656 471.481C692.269 450.664 718.168 517.068 750.551 498.481C782.935 479.894 740.444 423.013 774.305 403.578C808.167 384.143 837.586 448.526 871.448 429.091C905.309 409.656 854.615 357.483 896.929 333.197" stroke="#6CF133" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1614 784.532L1689.78 859.87" stroke="#074074" stroke-width="15" stroke-linecap="round"/>
+<path d="M1689.78 784.532L1614 859.87" stroke="#074074" stroke-width="15" stroke-linecap="round"/>
+<path d="M223.643 986.837L-39.9998 1057.07" stroke="#FFFF00" stroke-width="15" stroke-linecap="round"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="-20" y="365" width="209" height="208">
+<rect width="208.597" height="207.373" transform="matrix(-1 0 0 1 188.597 365.009)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M72.1672 435.296L141.867 505.085" stroke="white" stroke-width="10"/>
+<path d="M37.5681 435.795L107.268 505.584" stroke="white" stroke-width="10"/>
+<path d="M2.46751 435.296L72.6686 505.584" stroke="white" stroke-width="10"/>
+<path d="M-31.7625 436.213L37.5686 505.584" stroke="white" stroke-width="10"/>
+<path d="M-66.4948 436.213L2.96882 505.584" stroke="white" stroke-width="10"/>
+<path d="M141.867 435.795L210.975 504.703" stroke="white" stroke-width="10"/>
+<path d="M107.164 436.213L176.466 505.086" stroke="white" stroke-width="10"/>
+<path d="M2.9873 366.772L72.1671 435.297" stroke="white" stroke-width="10"/>
+<path d="M-31.7439 366.772L37.5685 435.795" stroke="white" stroke-width="10"/>
+<path d="M-66.4761 366.772L2.96865 435.795" stroke="white" stroke-width="10"/>
+<path d="M72.6361 366.771L141.867 435.795" stroke="white" stroke-width="10"/>
+<path d="M37.7187 366.771L107.268 436.293" stroke="white" stroke-width="10"/>
+<path d="M175.964 436.792L244.895 505.654" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.1461" y2="-5" transform="matrix(0.708996 0.705213 0.708996 -0.705213 143.061 365.961)" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.1461" y2="-5" transform="matrix(0.708996 0.705213 0.708996 -0.705213 177.468 365.961)" stroke="white" stroke-width="10"/>
+<path d="M106.556 367.723L175.964 436.792" stroke="white" stroke-width="10"/>
+<path d="M141.867 505.085L211.035 574.144" stroke="white" stroke-width="10"/>
+<path d="M106.766 505.085L176.303 574.144" stroke="white" stroke-width="10"/>
+<path d="M72.6688 505.584L141.572 574.145" stroke="white" stroke-width="10"/>
+<path d="M37.0669 505.085L106.841 574.144" stroke="white" stroke-width="10"/>
+<path d="M2.96924 505.584L72.1089 574.144" stroke="white" stroke-width="10"/>
+<path d="M176.466 505.085L245.766 574.144" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.1461" y2="-5" transform="matrix(-0.709185 -0.705022 -0.709185 0.705022 0.894043 573.672)" stroke="white" stroke-width="10"/>
+<line y1="-5" x2="97.1461" y2="-5" transform="matrix(-0.709185 -0.705022 -0.709185 0.705022 35.894 576.654)" stroke="white" stroke-width="10"/>
+</g>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="1358" y="188" width="322" height="326">
+<ellipse rx="161" ry="162.54" transform="matrix(-1 0 0 1 1519 350.594)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask2)">
+</g>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="1358" y="188" width="322" height="326">
+<ellipse rx="161" ry="162.54" transform="matrix(-1 0 0 1 1519 350.594)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask3)">
+<path d="M1458.78 297.735L1590.98 412.703" stroke="white" stroke-width="20"/>
+<path d="M1392.02 296.414L1525.54 412.703" stroke="white" stroke-width="20"/>
+<path d="M1326.78 297.861L1460.09 412.703" stroke="white" stroke-width="20"/>
+<path d="M1261.28 297.15L1393 411.733" stroke="white" stroke-width="20"/>
+<path d="M1592.29 297.736L1723.97 411.938" stroke="white" stroke-width="20"/>
+<path d="M1525.54 296.414L1659.05 412.703" stroke="white" stroke-width="20"/>
+<path d="M1326.82 182.2L1458.78 297.736" stroke="white" stroke-width="20"/>
+<path d="M1260.5 182.2L1392.02 296.414" stroke="white" stroke-width="20"/>
+<path d="M1459.81 182.2L1592.29 297.735" stroke="white" stroke-width="20"/>
+<path d="M1393.14 182.2L1526.85 297.735" stroke="white" stroke-width="20"/>
+<path d="M1656.43 299.057L1788.74 413.522" stroke="white" stroke-width="20"/>
+<line y1="-10" x2="174.126" y2="-10" transform="matrix(0.75551 0.655137 0.75551 -0.655137 1595.87 179.479)" stroke="white" stroke-width="20"/>
+<path d="M1524.58 183.785L1656.43 299.057" stroke="white" stroke-width="20"/>
+<path d="M1590.98 412.703L1724.08 527.598" stroke="white" stroke-width="20"/>
+<path d="M1525.54 412.703L1657.76 527.598" stroke="white" stroke-width="20"/>
+<path d="M1460.09 412.703L1591.44 527.598" stroke="white" stroke-width="20"/>
+<path d="M1393 411.733L1525.95 526.887" stroke="white" stroke-width="20"/>
+<line y1="-10" x2="174.126" y2="-10" transform="matrix(0.75551 0.655137 0.75551 -0.655137 1332.22 409.217)" stroke="white" stroke-width="20"/>
+<path d="M1659.05 412.703L1790.4 527.598" stroke="white" stroke-width="20"/>
+</g>
+<mask id="mask4" mask-type="alpha" maskUnits="userSpaceOnUse" x="672" y="876" width="360" height="312">
+<path d="M847.356 879.461C849.283 876.142 854.076 876.142 856.003 879.461L1030.65 1180.18C1032.59 1183.52 1030.18 1187.69 1026.33 1187.69H677.033C673.178 1187.69 670.773 1183.52 672.709 1180.18L847.356 879.461Z" fill="black"/>
+</mask>
+<g mask="url(#mask4)">
+<path d="M732.78 979.709L864.984 1094.68" stroke="white" stroke-width="20"/>
+<path d="M666.024 978.388L799.536 1094.68" stroke="white" stroke-width="20"/>
+<path d="M600.783 979.835L734.09 1094.68" stroke="white" stroke-width="20"/>
+<path d="M535.283 979.124L667 1093.71" stroke="white" stroke-width="20"/>
+<path d="M866.293 979.709L997.969 1093.91" stroke="white" stroke-width="20"/>
+<path d="M799.536 978.388L933.049 1094.68" stroke="white" stroke-width="20"/>
+<path d="M600.819 864.174L732.781 979.709" stroke="white" stroke-width="20"/>
+<path d="M534.498 864.174L666.024 978.388" stroke="white" stroke-width="20"/>
+<path d="M733.812 864.174L866.293 979.709" stroke="white" stroke-width="20"/>
+<path d="M667.138 864.174L800.846 979.709" stroke="white" stroke-width="20"/>
+<path d="M930.431 981.031L1062.74 1095.5" stroke="white" stroke-width="20"/>
+<line y1="-10" x2="174.126" y2="-10" transform="matrix(0.755597 0.655037 0.755597 -0.655037 869.867 861.452)" stroke="white" stroke-width="20"/>
+<path d="M798.582 865.758L930.431 981.03" stroke="white" stroke-width="20"/>
+</g>
+</g>
+</g>
+</svg>

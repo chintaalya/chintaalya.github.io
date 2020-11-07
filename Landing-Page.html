@@ -6,11 +6,14 @@
     <title>Dinolearn</title>
     <link rel="stylesheet" href="styles/landingpage.css">
     <link rel="icon" href="images/assets/Logo.svg">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=NTR' >
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Mitr'>
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Khand'>
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lemon'>
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Mulish'>
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Skranji'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Niramit'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -20,10 +23,10 @@
                 <p>DINOLEARN</p>
             </div>
             <div id = "nav-menu">
-                <a href="#contactus">CONTACT US</a>
-                <a href="#program">PROGRAMS</a>
-                <a href="#about">ABOUT</a>
-                <a href="#home">HOME</a>
+                <a href="#contactus" class="active">CONTACT US</a>
+                <a href="#programs" class="active">PROGRAMS</a>
+                <a href="#about" class="active">ABOUT</a>
+                <a href="#home" class="active">HOME</a>
             </div>
         </nav>
     </header>
@@ -43,30 +46,43 @@
             <img src="images/assets/dino.svg">
         </div>
         <div id = "programs">
-            <p>OUR LEARNING METHOD</p>
+            <h3>OUR LEARNING METHOD</h3>
             <div id = "watching">
-                <a>WATCHING</a>
-                <p>There will be some videos that children can watch. These videos are basically song that consist of lesson to help children understand and memorizing.</p>
+                <div>
+                    <a>WATCHING</a>
+                    <p>There will be some videos that children can watch. These videos are basically song that consist of lesson to help children understand and memorizing.</p>
+                </div>
                 <img src="images/assets/watching.svg">
             </div>
-            <div id = "watching">
+            <div id = "listening">
                 <img src="images/assets/listening.svg">
-                <a>LISTENING</a>
-                <p>There will be some pictures that you can click and they will make a voice. It will guide parents and children to have a good pronounciation in speaking English.</p>
+                <div>
+                    <a>LISTENING</a>
+                    <p>There will be some pictures that you can click and they will make a voice. It will guide parents and children to have a good pronounciation in speaking English.</p>
+                </div>
             </div>
         </div>
         <div id = "contactus">
-            <div>
-                <p>NEED TO ASK SOMETHING?</p>
+            <div class="contact-left">
+                <p>NEED TO ASK<br>SOMETHING?</p>
                 <img src="images/assets/Logo.svg">
             </div>
-            <div>
-                <p>Drop your question or feedback here!</p>
-                <p>E - mail</p>
-                <p>Messages</p>
-                <p>Send</p>
+            <div class="contact-right">
+                <div class="contactus-form">
+                    <p class="mid">Drop your question or feedback here!</p>
+                    <div class="row">
+                        <p>E - mail</p>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="row">
+                        <p>Messages</p>
+                        <input type="text" name="message" id="message">
+                    </div>    
+                    <button class="send">Send</button>
+                </div>
             </div>
         </div>
+        <div style="clear: both;"></div>
     </main>
     <footer>
         <div id="foot-left">
@@ -81,5 +97,11 @@
             <a href = "https://twitter.com/namakuchinta" target="_blank"><img src="images/assets/twitter.svg" alt="twitter"></a>
         </div>
     </footer>
+    <script>
+     $('a').on('click', function(){
+        $('a').removeClass('active');
+        $(this).addClass('active');
+    });
+    </script>
 </body>
 </html>
