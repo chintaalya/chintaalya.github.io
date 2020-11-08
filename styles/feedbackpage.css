@@ -64,11 +64,14 @@ nav {
     filter: drop-shadow(0 0 5px grey);
 }
 main {
-    padding-top: 650px;
+    padding-top: 65px;
 }
 footer {
+    bottom: 0px;
     background-color: #D8EEFB;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 #foot-left {
     display: inline-block;
@@ -108,4 +111,112 @@ footer {
 } 
 #foot-right img:hover {
     filter: drop-shadow(0 0 5px grey);
+}
+
+.contact-left{
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+}
+.contact-left p{
+    font-family: Skranji;
+    font-size: 40px;
+    color:#074074;
+    margin-block-start: 1.4em;
+    margin-block-end: 0;
+    margin-inline-end: 50px;
+}
+
+.contact-left img{
+    margin-inline-end: 50px;
+}
+
+.contact-right{
+    color: #074074;
+    display: block;
+    float: right;
+    width: fit-content;
+    margin: 90px 170px 5px 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contactus-form{
+    font-family: 'Niramit';
+    background-color: #FFFFFF;
+    border: 10px solid  #d8eefb;
+    border-radius: 20px;
+    width: 520px;
+}
+
+.contactus-form p.mid{
+    text-align: center;
+    font-size: 22px;
+    margin-block-start: 5px;
+    margin-block-end: 14px;
+}
+
+.row{
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.row p{
+    font-weight: 600;
+    margin-left: 94px;
+    margin-block-start: 4px;
+    margin-block-end: 2px;
+}
+
+.row input[type="email"]{
+    background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 2px 14px 0 0;
+    width: 60%;
+    margin-inline-start: 85px;
+}
+
+.row textarea[name="message"]{
+    background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 2px 14px 0 0;
+    width: 60%;
+    height: 40px;
+    margin-inline-start: 85px;
+}
+
+button.send {
+    font-family: 'NTR';
+    font-weight: 700;
+    border-radius: 20px;
+    color: #074074;
+    border: 1px solid #D8EEFB;
+    background-color: #D8EEFB;
+    font-size: 18px;
+    padding: 0px 45px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    margin: 20px 5px 20px 87px;
+    width: 65%;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.continue {
+    width: 80%;
 }

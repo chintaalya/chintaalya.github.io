@@ -5,6 +5,7 @@
     url("//db.onlinewebfonts.com/t/e7f249e71a563eed9c495835657eb9c2.woff") format("woff"), url("//db.onlinewebfonts.com/t/e7f249e71a563eed9c495835657eb9c2.ttf") format("truetype"), 
     url("//db.onlinewebfonts.com/t/e7f249e71a563eed9c495835657eb9c2.svg#Poetsen One") format("svg"); 
 }
+/* @import url(//db.onlinewebfonts.com/c/e7f249e71a563eed9c495835657eb9c2?family=Poetsen+One); */
 
 body {
     margin: 0px;
@@ -71,7 +72,7 @@ main p{
     padding-top: 80px;
     display: block;
     text-align: center;
-    font-family: 'Poetsen One';
+    font-family: "Poetsen One";
     font-size: 40px;
     color: #074074;
 }

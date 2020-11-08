@@ -310,7 +310,7 @@ footer {
     margin-inline-start: 70px;
 }
 
-.row input[type="text"]{
+.row textarea[name="message"]{
     background-color: #ffffff;
     border-color: #9CDAFF;
     border-style: solid;
