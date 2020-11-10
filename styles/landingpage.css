@@ -53,19 +53,19 @@ body {
     width: 100%;
     background-size: cover;
 }
-#home img {
+#home .homeleft img {
     float: left;
     width: 550px;
     margin: 220px 0px 0px 120px;
 }
-.judul {
+.judul h1{
     font-family: Lemon;
     font-size: xx-large;
     color: #074074;
     float: right;
     margin: 245px 160px 0px 0px;
 }
-#home p {
+.judul p {
     font-family: Mulish;
     float: right;
     text-align: center;
@@ -83,7 +83,8 @@ button.register{
 	padding: 12px 45px;
 	letter-spacing: 1px;
     margin: 35px 0px 220px 125px;
-    float: center;
+    display: inline-block;
+    float: left;
     transition: transform 80ms ease-in;
 }
 button.login{
@@ -97,6 +98,7 @@ button.login{
 	padding: 10px 70px;
 	letter-spacing: 1px;
     margin: 35px 135px 0px 0px;
+    display: inline-block;
     float: right;
     transition: transform 80ms ease-in;
 }
