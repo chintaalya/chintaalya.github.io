@@ -122,8 +122,8 @@ main svg {
 #about {
     background: url("../images/assets/bg-image2.svg") #D8EEFB;
     width: 100%;
+    height: 100vh;
     background-size: cover;
-    overflow: hidden;
 }
 #about div {
     width: 40%;
@@ -157,10 +157,14 @@ main svg {
     fill: #ffffff;
 }
 #programs {
+    width: 100%;
+    height: 100vh;
     background-color: #ffffff;
     margin: 0px;
 }
 #contactus {
+    width: 100%;
+    height: 100vh;
     background: url(/images/bg/Bgpart4.svg);
     background-color: #D8EEFB;
     font-family: 'Niramit';
