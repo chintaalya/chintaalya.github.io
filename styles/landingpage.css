@@ -1,6 +1,11 @@
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
 body {
     margin: 0px;
     background: url("/images/bg/Bgpart1.svg");
+    overflow: hidden;
 }
 nav {
     display: inline-block;
@@ -10,7 +15,6 @@ nav {
     border-bottom: 3pt solid #D8EEFB;
     top: 0;
     width: 100%;
-    overflow: hidden;
 }
 #nav-brand {
     display: inline-block;
@@ -47,15 +51,13 @@ nav {
 #home {
     width: 100%;
     background-size: cover;
-    overflow: hidden;
-}
-#homepage {
-    margin-top: 200px;
+    height: 100vh;
 }
 #home img {
     display: inline-block;
     float: left;
     width: 550px;
+    margin-top: 200px;
     margin-left: 100px;
 }
 .homeright {
@@ -69,7 +71,7 @@ nav {
     font-family: Lemon;
     font-size: xx-large;
     color: #074074;
-    margin: 50px 110px 0 0;
+    margin: 250px 110px 0 0;
 }
 .judul p {
     font-family: Mulish;
