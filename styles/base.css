@@ -109,6 +109,10 @@ a {
 	margin: 15px 0;
 }
 
+a:hover {
+    color: #56af3c;
+}
+
 button {
 	border-radius: 20px;
 	border: 1px solid #108DFF;
