@@ -76,16 +76,20 @@ main p{
     font-size: 40px;
     color: #074074;
 }
+
+main{
+    margin-bottom: 530px;
+}
+
 .row{
     display: block;
     width: 100%;
     clear: both;
-    margin-left: 20px;
 }
 .row .left{
     float: left;
     width: 45%;
-    /* margin: 35px; */
+    margin-left: 20px;
 }
 iframe{
     height: 280px;
@@ -101,7 +105,7 @@ iframe{
     width: 30%;
     height: 20%;
     margin-top: 20px;
-    margin-right: 220px;
+    margin-right: 200px;
 }
 .row .right p {
     padding: 0;
