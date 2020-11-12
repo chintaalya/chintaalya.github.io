@@ -78,7 +78,7 @@ main p{
 }
 
 main{
-    margin-bottom: 570px;
+    margin-bottom: 500px;
 }
 
 .row{
@@ -94,7 +94,8 @@ main{
 iframe{
     height: 280px;
     width: 500px;
-    margin-left: 120px;  
+    margin-left: 120px;
+    margin-bottom: 160px;  
     border-width: 20px;
     border-radius: 5px;
     border-color: #88D840;
