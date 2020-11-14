@@ -12,7 +12,6 @@ body {
     font-family: 'Poppins';
     color:#108DFF; 
     background-image: url('../images/bg/Forgetpage.svg');
-    background-repeat:no-repeat;
     background-size:cover;
     display: flex;
 }
@@ -32,9 +31,7 @@ form {
 .forget {
     background-color: #fff;
 	border-radius: 50px;
-  	box-shadow: 27px 3px 110px rgba(0,0,0,0.1), 
-		    27px 3px 110px rgba(0,0,0,0.1);
-    position: relative;
+  	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
 	overflow: hidden;
 	width: 580px;
     height: 480px;
@@ -42,13 +39,11 @@ form {
     min-height: 420px;
     margin-top: 98.5px;
     margin-left: 79px;
-    /* margin: auto; */
 }
 
 .row {
     display: block;
     width: 100%;
-    clear: both;
 }
 
 h1{
@@ -57,7 +52,7 @@ h1{
     font-family: 'Poppins';
     font-weight: bolder;
     margin: 40px 0 0 0;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px #108DFF;
+    text-shadow: 1px 1px #108DFF;
     text-align: left;
     padding-top: 19px;
     padding-bottom: 14px;
@@ -66,7 +61,6 @@ h1{
 .row1 {
     display: block;
     width: 100%;
-    clear: both;
     margin-top: 12px;
 }
 
@@ -76,17 +70,12 @@ h1{
     display: block;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-size: 18px;
 }
-
 
 .row2 {
     display: block;
     width: 100%;
-    clear: both;
-    /* margin-bottom: 16px; */
 }
 
 .row2 p{
@@ -98,8 +87,6 @@ h1{
     display: block;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-family: 'NTR';
     font-size: 18px;
 }
@@ -163,7 +150,7 @@ button.continue {
 .inputof4 {
     display: block;
     width: 100%;
-    clear: both;
+    clear: left;
     text-align: left;
 }
 
@@ -196,6 +183,10 @@ a {
 	margin: 15px 0;
 }
 
+a:hover {
+    color: #56af3c;
+}
+
 .sidefront {
     margin-top: 98.5px;
     margin-left: 109px;
@@ -211,7 +202,7 @@ a {
     font-family: Poppins;
     font-weight: bolder;
     font-size: 40px;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px #0759A3;
+    text-shadow: 1px 1px #0759A3;
     text-align: left;
     margin-left: 100px;
     margin-bottom: 40px;
@@ -221,8 +212,6 @@ a {
     display: block;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     line-height: 1em;
 }
 

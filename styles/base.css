@@ -4,8 +4,8 @@ html,body {
   width:100%;
   margin:0px;
   background-color:#d1e9ff; 
-
 }
+
 body {
   font-size: 1.5em;
   line-height: 1.6;
@@ -32,9 +32,7 @@ form {
 .login {
     background-color: #fff;
 	border-radius: 50px;
-  	box-shadow: 27px 3px 110px rgba(0,0,0,0.1), 
-		    27px 3px 110px rgba(0,0,0,0.1);
-	position: relative;
+  	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
 	overflow: hidden;
 	width: 500px;
     height: 620px;
@@ -46,7 +44,6 @@ form {
 .row {
     display: block;
     width: 100%;
-    clear: both;
 }
 
 .column-left {
@@ -63,7 +60,7 @@ h1{
     font-family: 'Poppins';
     font-weight: bolder;
     margin: 5px 0 5px 0;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px #108DFF;
+    text-shadow: 1px 1px #108DFF;
 }
 
 label{
@@ -82,11 +79,6 @@ input[type="password"] {
 	padding: 12px 15px;
 	margin: 2px 0;
 	width: 90%;
-}
-
-.checkbox {
-  display: inline-block;
-  width: 10px;
 }
 
 .remember {
@@ -141,9 +133,7 @@ button.continue {
 .mini-icon {
     display: block;
     margin-top: 20px;
-    margin-bottom: 0;
     margin-left: 27.5%;
-    margin-right: 72.5%;
     width: 40%;
 }
 
@@ -154,7 +144,6 @@ label {
 .row6, .row7 {
     display: block;
     width: 100%;
-    clear: both;
     margin: 9px 7px 3px;
 }
 
