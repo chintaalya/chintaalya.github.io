@@ -4,7 +4,6 @@ body {
     background-color: #D8EEFB;
     width: 100%;
     background-size: cover;
-    overflow: hidden;
 }
 nav {
     padding: 20px;
@@ -13,7 +12,6 @@ nav {
     border-bottom: 3pt solid #D8EEFB;
     top: 0px;
     width: 100%;
-    overflow: hidden;
 }
 #nav-brand img {
     display: inline-block;
@@ -80,10 +78,7 @@ form.left{
     text-align: center;
     float: left;
 	border-radius: 45px;
-  	box-shadow: 27px 3px 110px rgba(0,0,0,0.1),
-		    27px 3px 110px rgba(0,0,0,0.1);
-    position: relative;
-	overflow: hidden;
+  	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
 	width: 400px;
     height: 540px;
     max-width: 100%;
@@ -100,10 +95,7 @@ form.right{
     text-align: center;
     float: right;
     border-radius: 45px;
-  	box-shadow: 27px 3px 110px rgba(0,0,0,0.1),
-		    27px 3px 110px rgba(0,0,0,0.1);
-    position: relative;
-	overflow: hidden;
+  	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
 	width: 540px;
     height: 540px;
     max-width: 100%;
@@ -118,8 +110,6 @@ form.right{
     width: 360px;
     background-size: cover;
     background-position: center;
-    transition: all .3s ease;
-    
 }
 
 .left a {

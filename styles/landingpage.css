@@ -222,7 +222,7 @@ footer {
     color: #56AF2C;
 }
 #programs {
-    padding: 90px 0 98px 0;
+    padding: 90px 0 130px 0;
     font-family: Skranji;
     color: #074074;
     text-align: center;
@@ -276,9 +276,7 @@ footer {
     display: inline-block;
     width: 30%;
 }
-#contactus {
-    overflow: hidden;
-}
+
 .contact-left{
     text-align: right;
     display: inline-block;

@@ -12,7 +12,6 @@ nav {
     border-bottom: 3pt solid #D8EEFB;
     top: 0px;
     width: 100%;
-    overflow: hidden;
 }
 #nav-brand img {
     display: inline-block;
@@ -69,7 +68,6 @@ main {
 footer {
     bottom: 0px;
     background-color: #D8EEFB;
-    overflow: hidden;
     position: fixed;
     width: 100%;
 }
@@ -159,7 +157,6 @@ footer {
 .row{
     display: block;
     width: 100%;
-    clear: both;
 }
 
 .row p{
