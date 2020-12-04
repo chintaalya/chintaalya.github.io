@@ -1,58 +1,9 @@
-html {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-body {
-    margin: 0px;
-    background: url("/images/bg/Bgpart1.svg");
-    overflow: hidden;
-}
-nav {
-    display: inline-block;
-    padding: 20px;
-    background: #ffffff;
-    position: fixed;
-    border-bottom: 3pt solid #D8EEFB;
-    top: 0;
-    width: 100%;
-}
-#nav-brand {
-    display: inline-block;
-    float: left;
-}
-#nav-brand img {
-    display: inline-block;
-    width: 35px;
-    padding: 0 20px 0 40px;
-    float: left;
-}
-#nav-brand p {
-    margin: 0;
-    font-family: Khand;
-    color: #074074;
-    font-size: x-large;
-    font-weight: bold;
-    display: inline-block;
-}
-#nav-menu {
-    display: inline-block;
-    float: right;
-    padding-right: 50px;
-}
-#nav-menu a {
-    display: inline-block;
-    text-decoration: none;
-    float: right;
-    padding: 6px 30px;
-    font-family: Mitr;
-    font-size: 100%;
-    color: #074074;
-}
 #home {
     width: 100%;
     background-size: cover;
     height: 100vh;
 }
+
 #home img {
     display: inline-block;
     float: left;
@@ -60,74 +11,85 @@ nav {
     margin-top: 200px;
     margin-left: 100px;
 }
+
 .homeright {
     display: inline-block;
     float: right;
 }
+
 .judul {
     display: block;
 }
-.judul h1{
+
+.judul h1 {
     font-family: Lemon;
     font-size: xx-large;
     color: #074074;
     margin: 250px 110px 0 0;
 }
+
 .judul p {
     font-family: Mulish;
     text-align: center;
     margin: 25px 130px 0 0;
     color: #074074;
 }
+
 .homebutton {
     display: block;
     margin-top: 30px;
 }
-button.register{
+
+button.register {
     border-radius: 30px;
-	border: 1px solid #074074;
-	background-color: #074074;
+    border: 1px solid #074074;
+    background-color: #074074;
     color: #FFFFFF;
     font-family: Mulish;
     font-weight: bold;
-	font-size: 14px;
-	padding: 12px 35px;
-	letter-spacing: 1px;
+    font-size: 14px;
+    padding: 12px 35px;
+    letter-spacing: 1px;
     margin-bottom: 220px;
     display: inline-block;
     float: right;
     transition: transform 80ms ease-in;
 }
-button.login{
+
+button.login {
     border-radius: 30px;
-	border: 5px solid #074074;
-	background-color: #FFFFFF;
+    border: 5px solid #074074;
+    background-color: #FFFFFF;
     color: #074074;
     font-family: Mulish;
     font-weight: bold;
-	font-size: 14px;
-	padding: 10px 60px;
-	letter-spacing: 1px;
+    font-size: 14px;
+    padding: 10px 60px;
+    letter-spacing: 1px;
     margin: 0 115px 0 20px;
     display: inline-block;
     float: right;
     transition: transform 80ms ease-in;
 }
+
 main svg {
     background-color: #FFFFFF;
     margin: 0;
     fill: #D8EEFB;
     display: block;
 }
+
 #about {
     background: url("../images/bg/Bgpart2.svg") #D8EEFB;
     width: 100%;
     height: 100vh;
     background-size: cover;
 }
+
 #about div {
     width: 40%;
 }
+
 #about div h1 {
     display: inline-block;
     float: left;
@@ -136,6 +98,7 @@ main svg {
     color: #074074;
     font-size: 30px;
 }
+
 #about div p {
     margin: 20px 0px 0px 130px;
     width: 90%;
@@ -144,24 +107,28 @@ main svg {
     font-size: 20px;
     float: left;
 }
+
 #about img {
     display: inline-flex;
     width: 35%;
     margin: 0px 100px 0px 0px;
     float: right;
 }
+
 main svg.blue {
     margin: 0;
     display: block;
     background-color: #d8eefb;
     fill: #ffffff;
 }
+
 #programs {
     width: 100%;
     height: 100vh;
     background-color: #ffffff;
     margin: 0px 0 0 0;
 }
+
 #contactus {
     width: 100%;
     height: 100vh;
@@ -169,21 +136,25 @@ main svg.blue {
     background-color: #D8EEFB;
     font-family: 'Niramit';
 }
+
 footer {
     background-color: #D8EEFB;
     overflow: hidden;
 }
+
 #foot-left {
     display: inline-block;
     float: left;
     margin-left: 60px;
     margin-bottom: 20px;
 }
+
 #foot-right {
     display: inline-block;
     float: right;
     margin: 10px 60px;
 }
+
 #brand {
     margin: 0px;
     font-family: Khand;
@@ -191,11 +162,13 @@ footer {
     padding-top: 10px;
     color: #074074;
 }
+
 #desc {
     margin: 0px;
     font-family: Mulish;
     color: #074074;
 }
+
 #foot-right p {
     margin: 5px;
     padding-top: 10px;
@@ -205,22 +178,28 @@ footer {
     text-align: center;
     color: #074074;
 }
+
 #foot-right img {
     width: 25px;
     padding: 10px;
-} 
+}
+
 #foot-right img:hover {
     filter: drop-shadow(0 0 5px grey);
 }
-#nav-menu a{
+
+#nav-menu a {
     color: #074074;
 }
-#nav-menu a:hover{
+
+#nav-menu a:hover {
     color: #56AF2C;
 }
-#nav-menu a.active{
+
+#nav-menu a.active {
     color: #56AF2C;
 }
+
 #programs {
     padding: 90px 0 130px 0;
     font-family: Skranji;
@@ -229,20 +208,24 @@ footer {
     font-size: 25px;
     height: 500px;
 }
-#programs h3{
+
+#programs h3 {
     font-size: 30px;
     margin-block-end: 2.5em;
     margin-inline-start: 5%;
 }
+
 #content {
     display: block;
 }
-#watching{
+
+#watching {
     display: inline-block;
     display: left;
-    width:48%;
+    width: 48%;
 }
-#watching div{
+
+#watching div {
     font-size: 20px;
     font-family: Mulish;
     line-height: 2em;
@@ -250,18 +233,22 @@ footer {
     text-align: center;
     width: 55%;
 }
-#watching a{
+
+#watching a {
     font-family: Skranji;
 }
-#watching img{
+
+#watching img {
     display: inline-block;
     width: 40%;
 }
-#listening{
+
+#listening {
     display: inline-block;
-    width:48%;
+    width: 48%;
 }
-#listening div{
+
+#listening div {
     font-size: 20px;
     font-family: Mulish;
     line-height: 2em;
@@ -269,31 +256,36 @@ footer {
     text-align: center;
     width: 65%;
 }
-#listening a{
+
+#listening a {
     font-family: Skranji;
 }
-#listening img{
+
+#listening img {
     display: inline-block;
     width: 30%;
 }
 
-.contact-left{
+.contact-left {
     text-align: right;
     display: inline-block;
     width: 40%;
 }
-.contact-left p{
+
+.contact-left p {
     margin-top: 110px;
     font-family: Skranji;
     font-size: 40px;
-    color:#074074;
+    color: #074074;
 }
+
 .contact-left img {
     display: inline-block;
     width: 280px;
     margin-bottom: 50px;
 }
-.contact-right{
+
+.contact-right {
     color: #074074;
     display: block;
     float: right;
@@ -303,30 +295,35 @@ footer {
     padding: 20px;
     border-radius: 20px;
 }
-.contactus-form{
-    border: 10px solid  #d8eefb;
+
+.contactus-form {
+    border: 10px solid #d8eefb;
     border-radius: 20px;
     padding: 10px;
     width: 450px;
 }
-.contactus-form p.mid{
+
+.contactus-form p.mid {
     text-align: center;
     font-size: 22px;
     margin-block-start: 5px;
     margin-block-end: 14px;
 }
-.row{
+
+.row {
     display: block;
     width: 100%;
     clear: both;
 }
-.row p{
+
+.row p {
     font-weight: 600;
     margin-left: 80px;
     margin-block-start: 4px;
     margin-block-end: 2px;
 }
-.row input[type="email"]{
+
+.row input[type="email"] {
     background-color: #ffffff;
     border-color: #9CDAFF;
     border-style: solid;
@@ -338,7 +335,7 @@ footer {
     margin-inline-start: 70px;
 }
 
-.row textarea[name="message"]{
+.row textarea[name="message"] {
     background-color: #ffffff;
     border-color: #9CDAFF;
     border-style: solid;
@@ -350,6 +347,7 @@ footer {
     height: 40px;
     margin-inline-start: 70px;
 }
+
 button.send {
     font-family: 'NTR';
     font-weight: 700;
@@ -364,12 +362,15 @@ button.send {
     margin: 20px 5px 10px 73px;
     width: 65%;
 }
+
 button:active {
-	transform: scale(0.95);
+    transform: scale(0.95);
 }
+
 button:focus {
-	outline: none;
+    outline: none;
 }
+
 button.continue {
     width: 80%;
 }

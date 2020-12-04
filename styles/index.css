@@ -1,0 +1,115 @@
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background: url("/images/bg/Bgpart1.svg");
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #ffffff;
+    position: fixed;
+    border-bottom: 3pt solid #D8EEFB;
+    top: 0;
+    width: 100%;
+}
+
+#nav-brand {
+    display: flex;
+    padding: 6px 0;
+    padding-left: 50px;
+    justify-content: flex-start;
+    width: 20%;
+}
+
+#nav-brand img {
+    width: 35px;
+    padding-right: 30px;
+}
+
+#nav-brand p {
+    margin: 0;
+    font-family: Khand;
+    color: #074074;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 6px 0;
+    padding-right: 50px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    font-family: Mitr;
+    font-size: 100%;
+    color: #074074;
+}
+
+.burgericon {
+    display: none;
+}
+
+#check {
+    font-size: 3px;
+    color: #074074;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    #nav-menu {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .burgericon {
+        padding: 0;
+        display: flex;
+    }
+    nav {
+        padding: 0;
+        flex-direction: column;
+    }
+    #nav-brand {
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #nav-brand img {
+        padding: 0;
+    }
+    #nav-menu {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background: #D8EEFB;
+        margin-right: 0;
+        width: 80%;
+        height: 100vh;
+        transition: all .5s;
+        left: -100%;
+    }
+    #nav-menu a {
+        padding: 45px 0;
+    }
+    #check:checked {
+        left: 0;
+    }
+}
