@@ -414,7 +414,8 @@ main svg.blue {
         right: 0px;
         height: 22.5vh;
         top: 10.5vh;
-        background-color: lightblue;
+        background-color: white;
+        border-bottom: 3pt solid #D8EEFB;
         display: flex;
         justify-content: unset;
         flex-direction: column;
@@ -422,7 +423,7 @@ main svg.blue {
         align-items: center;
         width: 100%;
         transform: translateY(-150%);
-        transition: transform 0.5 ease;
+        transition: transform 0.5s ease;
         margin-right: 0;
     }
     .nav-menu li{
