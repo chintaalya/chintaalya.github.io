@@ -13,9 +13,10 @@ body {
     overflow: hidden;
 }
 
+/* navbar sect */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     background: #ffffff;
@@ -28,9 +29,10 @@ nav {
 .nav-brand {
     display: flex;
     padding: 6px 0;
-    padding-left: 50px;
     justify-content: flex-start;
     width: 20%;
+    z-index: 1000;
+    margin-left: 100px;
 }
 
 .nav-brand img {
@@ -49,8 +51,9 @@ nav {
 .nav-menu {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 40%;
     padding: 6px 0;
+    margin-right: 100px;
 }
 
 .nav-menu li{
@@ -74,7 +77,293 @@ nav {
     height: 3px;
     background-color:lightblue;
     margin: 5px;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
+}
+/* navbar sect */
+/* footer sect */
+.footer {
+    background-color: #D8EEFB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+#foot-left {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+#foot-right {
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#brand {
+    margin: 0px;
+    font-family: Khand;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #074074;
+}
+
+#desc {
+    margin: 0px;
+    font-family: Mulish;
+    color: #074074;
+}
+
+#foot-right p {
+    margin: 5px;
+    padding-top: 10px;
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #074074;
+}
+
+#foot-right ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#foot-right img {
+    width: 25px;
+    padding: 0 10px 10px 10px;
+}
+
+#foot-right img:hover {
+    filter: drop-shadow(0 0 5px grey);
+}
+/* footer sect */
+/* main sect */
+/*home*/
+#home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#home img {
+    max-width: 560px;
+}
+
+.homeright {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.judul {
+    display: block;
+}
+
+.judul h1 {
+    font-family: Lemon;
+    font-size: xx-large;
+    color: #074074;
+    margin-top: 270px;
+}
+
+.judul p {
+    font-family: Mulish;
+    text-align: center;
+    margin: 25px 0 0 0;
+    color: #074074;
+}
+
+.homebutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+button.register {
+    border-radius: 30px;
+    border: 1px solid #074074;
+    background-color: #074074;
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px 35px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+}
+
+button.login {
+    border-radius: 30px;
+    border: 5px solid #074074;
+    background-color: #FFFFFF;
+    color: #074074;
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 60px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+}
+
+/*about*/
+#about {
+    background: url("../images/bg/Bgpart2.svg") #D8EEFB;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#about div {
+    width: 40%;
+}
+
+#about div h1 {
+    margin: 300px 0px 0px 10px;
+    font-family: Skranji;
+    color: #074074;
+    font-size: 30px;
+}
+
+#about div p {
+    margin: 20px 0px 0px 10px;
+    width: 90%;
+    font-family: Mulish;
+    color: #074074;
+    font-size: 20px;
+}
+
+#about img {
+    width: 35%;
+    margin: 0px 10px 0px 0px;
+}
+
+/*programs*/
+#programs {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Skranji;
+    color: #074074;
+    text-align: center;
+    font-size: 25px;
+    height: 500px;
+    padding: 200px 0 100px 0;
+}
+#nav-menu a {
+    color: #074074;
+}
+
+#nav-menu a:hover {
+    color: #56AF2C;
+}
+
+#nav-menu a.active {
+    color: #56AF2C;
+}
+
+#programs h3 {
+    font-size: 30px;
+    margin-block-end: 2.5em;
+    margin-inline-start: 5%;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#watching {
+    display: flex;
+    display: row;
+    width: 48%;
+}
+
+#watching div {
+    font-size: 20px;
+    font-family: Mulish;
+    line-height: 2em;
+    text-align: center;
+    width: 55%;
+}
+
+#watching a {
+    font-family: Skranji;
+}
+
+#watching img {
+    width: 40%;
+}
+
+#listening {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+}
+
+#listening div {
+    font-size: 20px;
+    font-family: Mulish;
+    line-height: 2em;
+    text-align: center;
+    width: 65%;
+}
+
+#listening a {
+    font-family: Skranji;
+}
+
+#listening img {
+    width: 30%;
+}
+/*contactus*/
+
+/*misc*/
+main svg {
+    background-color: #FFFFFF;
+    margin: 0;
+    fill: #D8EEFB;
+    display: block;
+}
+
+main svg.blue {
+    margin: 0;
+    display: block;
+    background-color: #d8eefb;
+    fill: #ffffff;
+}
+
+
+/* main sect */
+
+
+@media screen and (max-width: 1300px) {
+    .nav-menu{
+        width: 45%;
+        transition: all 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 1146px) {
+    #content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -82,6 +371,38 @@ nav {
         width: 50%;
         transition: all 0.3s ease;
     }
+    #home{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+        /* height: 94vh; */
+    }
+    #home img {
+        padding-top: 70px;
+    }
+    .homeright{
+        margin-right: 0px;
+    }
+    .judul h1 {
+        margin-top: -100px;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about div h1{
+        margin-top: 70px;
+        font-size: 24px;
+    }
+    #about div p{
+        font-size: 20px;
+    }
+    #about img{
+        margin-top: -140px;
+        width: 38%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -91,36 +412,81 @@ nav {
     .nav-menu{
         position: absolute;
         right: 0px;
-        height: 89.5vh;
+        height: 22.5vh;
         top: 10.5vh;
         background-color: lightblue;
         display: flex;
+        justify-content: unset;
         flex-direction: column;
+        column-gap: 1em;
         align-items: center;
-        width: 35%;
-        transform: translateX(100%);
+        width: 100%;
+        transform: translateY(-150%);
         transition: transform 0.5 ease;
+        margin-right: 0;
     }
     .nav-menu li{
         opacity: 0;
+        padding: 10px;
+    }
+    .nav-brand {
+        margin-left: 60px;
+    }
+    .nav-brand img {
+        padding-right: 0;
+        margin-right: 62px;
+    }
+    
+    .nav-brand p {
+        margin-left: 38px;
     }
     .burger{
+        margin-right: 60px;
         display: block;
+    }
+    #foot-left {
+        margin-left: 40px;
+    }
+    #desc{
+        font-size: small;
+    }
+    #foot-right {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    #about div h1{
+        margin-top: 70px;
+        font-size: 18px;
+    }
+    #about div p{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    #home img{
+        width: 90%;
+        padding-top: 100px;
+    }
+    #about img{
+        margin-top: -140px;
+        width: 50%;
     }
 }
 
 .nav-active{
-    transform: translateX(0%);
+    transform: translateY(0%);
 }
 
 @keyframes navLinkFade{
     from{
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateY(-50px);
     }
     to{
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
 }
 
