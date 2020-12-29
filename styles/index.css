@@ -289,7 +289,8 @@ button.login {
 
 #watching {
     display: flex;
-    display: row;
+    flex-direction: row;
+    justify-content: space-between;
     width: 48%;
 }
 
@@ -312,6 +313,7 @@ button.login {
 #listening {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 48%;
 }
 
@@ -331,6 +333,111 @@ button.login {
     width: 30%;
 }
 /*contactus*/
+#contactus {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg/Bgpart4.svg) #D8EEFB;
+    font-family: 'Niramit';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.contact-left p {
+    margin-top: 110px;
+    font-family: Skranji;
+    font-size: 40px;
+    color: #074074;
+}
+
+.contact-left img {
+    width: 280px;
+    margin-bottom: 50px;
+}
+
+.contact-right {
+    color: #074074;
+    background-color: #ffffff;
+    width: fit-content;
+    height: fit-content;
+    margin: 150px 100px 70px 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contactus-form {
+    border: 10px solid #d8eefb;
+    border-radius: 20px;
+    padding: 10px;
+    width: 450px;
+}
+
+.contactus-form p.mid {
+    text-align: center;
+    font-size: 22px;
+    margin-block-start: 5px;
+    margin-block-end: 14px;
+}
+.row {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.row p {
+    font-weight: 600;
+    margin-left: 80px;
+    margin-block-start: 4px;
+    margin-block-end: 2px;
+}
+
+.row input[type="email"] {
+    background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 2px 14px 0 0;
+    width: 60%;
+    margin-inline-start: 70px;
+}
+
+.row textarea[name="message"] {
+    background-color: #ffffff;
+    border-color: #9CDAFF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 2px 14px 0 0;
+    width: 60%;
+    height: 40px;
+    margin-inline-start: 70px;
+}
+
+button.send {
+    font-family: 'NTR';
+    font-weight: 700;
+    border-radius: 20px;
+    color: #074074;
+    border: 1px solid #D8EEFB;
+    background-color: #D8EEFB;
+    font-size: 18px;
+    padding: 0px 45px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    margin: 20px 5px 10px 73px;
+    width: 65%;
+}
 
 /*misc*/
 main svg {
@@ -346,6 +453,36 @@ main svg.blue {
     background-color: #d8eefb;
     fill: #ffffff;
 }
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.continue {
+    width: 80%;
+}
+#foot-right img:hover {
+    filter: drop-shadow(0 0 5px grey);
+}
+
+.nav-menu a {
+    color: #074074;
+}
+
+.nav-menu a:hover, .nav-menu a.active{
+    color: #56AF2C;
+}
+
+/* .nav-menu a.active {
+    color: #56AF2C;
+} */
+/* li.active a{
+    color: red;
+} */
 
 
 /* main sect */
@@ -364,6 +501,20 @@ main svg.blue {
         flex-direction: column;
         align-items: center;
     }
+    #programs{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    #programs h3 {
+        margin-bottom: 30px;
+    }
+    #watching .part1{
+        font-size: 16px;
+    }
+    #listening .part2{
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -402,6 +553,39 @@ main svg.blue {
         margin-top: -140px;
         width: 38%;
     }
+    #programs{
+        padding-bottom: 140px;
+    }
+    #watching .part1{
+        font-size: 17px;
+    }
+    #listening .part2{
+        font-size: 17px;
+        margin-top: 40px;
+    }
+    #contactus{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .contact-right{
+        margin: 0%;
+    }
+    .contact-left{
+        margin-top: 200px;
+    }
+    .contact-left p{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .contact-left img{
+        width: 240px;
+    }
+    .footer{
+        padding-top: 150px;
+    }
 
 }
 
@@ -412,7 +596,7 @@ main svg.blue {
     .nav-menu{
         position: absolute;
         right: 0px;
-        height: 22.5vh;
+        height: 192.075px;
         top: 10.5vh;
         background-color: white;
         border-bottom: 3pt solid #D8EEFB;
@@ -462,7 +646,36 @@ main svg.blue {
     #about div p{
         font-size: 18px;
     }
-    
+    #programs{
+        padding-top: 135px;
+        padding-bottom: 145px;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #watching .part1{
+        font-size: 14px;
+    }
+    #listening .part2{
+        font-size: 14px;
+        margin-top: 60px;
+    }
+    #contactus{
+        height: 88vh;
+    }
+    .contact-left p {
+        margin-top: 0px;
+        margin-left: 30px;
+        width: max-content;
+    }
+    .contact-left img {
+        width: 160px;
+    }
+    .footer{
+        padding-top: 120px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -473,6 +686,30 @@ main svg.blue {
     #about img{
         margin-top: -140px;
         width: 50%;
+    }
+    #watching .part1{
+        font-size: 13px;
+    }
+    #listening .part2{
+        font-size: 13px;
+        margin-top: 50px;
+    }
+    .contactus-form{
+        width: 75vw;
+    }
+    .row p{
+        margin-left: 52px;
+    }
+    .row input[type="email"] {
+        margin-inline-start: 52px;
+        width: 65%;
+    }
+    .row textarea[name="message"] {
+        margin-inline-start: 52px;
+        width: 65%;
+    }
+    .footer{
+        padding-top: 120px;
     }
 }
 
