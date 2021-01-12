@@ -1,44 +1,44 @@
-
-html,body {
-  height:100%;
-  width:100%;
-  margin:0px;
-  background-color:#d1e9ff; 
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #d1e9ff;
 }
 
 body {
-  font-size: 1.5em;
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: 'NTR';
-  color:#108DFF; 
-  background-image: url('../images/bg/Loginpage.svg');
-  background-repeat:no-repeat;
-  background-size:cover;
-  display: flex;
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'NTR';
+    color: #108DFF;
+    background-image: url('../images/bg/Loginpage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
 }
 
 form {
     background-color: #FFFFFF;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 50px;
-	height: 100%;
-	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
 }
 
 .login {
     background-color: #fff;
-	border-radius: 50px;
-  	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
-	overflow: hidden;
-	width: 500px;
+    border-radius: 50px;
+    box-shadow: 27px 3px 110px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 500px;
     height: 620px;
-	max-width: 100%;
+    max-width: 100%;
     min-height: 480px;
-    margin:auto
+    margin: auto
 }
 
 .row {
@@ -46,16 +46,22 @@ form {
     width: 100%;
 }
 
+#username,
+#password {
+    outline-style: none;
+}
+
 .column-left {
     float: left;
     margin-left: 14px
 }
+
 .column-right {
     float: right;
     margin-right: 14px;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
     font-family: 'Poppins';
     font-weight: bolder;
@@ -63,7 +69,7 @@ h1{
     text-shadow: 1px 1px #108DFF;
 }
 
-label{
+label {
     display: block;
     text-align: left;
     width: 100%;
@@ -71,14 +77,14 @@ label{
 
 input[type="text"],
 input[type="password"] {
-	background-color: #ffffff;
+    background-color: #ffffff;
     border-color: #108DFF;
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
-	padding: 12px 15px;
-	margin: 2px 0;
-	width: 90%;
+    padding: 12px 15px;
+    margin: 2px 0;
+    width: 90%;
 }
 
 .remember {
@@ -92,13 +98,14 @@ input[type="password"] {
     padding: 0;
     border: 2px solid #108DFF;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 a {
-	color: #108DFF;
-	font-size: 16px;
-	text-decoration: none;
-	margin: 15px 0;
+    color: #108DFF;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px 0;
 }
 
 a:hover {
@@ -106,24 +113,29 @@ a:hover {
 }
 
 button {
-	border-radius: 20px;
-	border: 1px solid #108DFF;
-	background-color: #108DFF;
-	color: #FFFFFF;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
+    border-radius: 20px;
+    border: 1px solid #108DFF;
+    background-color: #108DFF;
+    color: #FFFFFF;
+    font-family: NTR;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 132px;
+    letter-spacing: 1px;
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
 }
 
 button:active {
-	transform: scale(0.95);
+    transform: scale(0.95);
 }
 
 button:focus {
-	outline: none;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 button.continue {
@@ -141,7 +153,8 @@ label {
     margin-left: 14px;
 }
 
-.row6, .row7 {
+.row6,
+.row7 {
     display: block;
     width: 100%;
     margin: 9px 7px 3px;
@@ -149,10 +162,10 @@ label {
 
 .row7 a {
     border-radius: 20px;
-	color: #108DFF;
+    color: #108DFF;
     font-family: NTR;
     font-size: 16px;
-	font-weight: bold;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
