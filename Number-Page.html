@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinolearn</title>
+    <link rel="icon" href="images/assets/Logo.png">
+    <link rel="stylesheet" href="styles/lessons.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Mitr'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Mulish'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Khand'>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=NTR'>
+    <link rel="stylesheet" href="//db.onlinewebfonts.com/c/e7f249e71a563eed9c495835657eb9c2?family=Poetsen+One">
+    <script>
+        var aAudio = new Audio(href='voice/0.mp3');
+        var bAudio = new Audio(href='voice/1.mp3');
+        var cAudio = new Audio(href='voice/2.mp3');
+        var dAudio = new Audio(href='voice/3.mp3');
+        var eAudio = new Audio(href='voice/4.mp3');
+        var fAudio = new Audio(href='voice/5.mp3');    
+        var gAudio = new Audio(href='voice/6.mp3');
+        var hAudio = new Audio(href='voice/7.mp3');
+        var iAudio = new Audio(href='voice/8.mp3');
+        var jAudio = new Audio(href='voice/9.mp3');
+        function sound(letter) {
+            if(letter == '0') {
+                aAudio.play();
+            } else if(letter == '1') {
+                bAudio.play();
+            } else if(letter == '2') {
+                cAudio.play();
+            } else if(letter == '3') {
+                dAudio.play();
+            } else if(letter == '4') {
+                eAudio.play();
+            } else if(letter == '5') {
+                fAudio.play();
+            } else if(letter == '6') {
+                gAudio.play();
+            } else if(letter == '7') {
+                hAudio.play();
+            } else if(letter == '8') {
+                iAudio.play();
+            } else if(letter == '9') {
+                jAudio.play();
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div id = "nav-brand">
+            <img src="images/assets/Logo.svg" alt="dinolearn-logo">
+        </div>
+        <div id = "nav-menu">
+            <a class = "active" href="Number-Page.html">LESSONS</a>
+            <a class = "non-active" href="Video-Page.html">VIDEOS</a>
+            <a class = "non-active" href="Feedback-Page.html">FEEDBACK</a>
+        </div>
+        <a id = "nav-logout" href="index.html"><img src="images/assets/logout.svg" alt="logout"></a>
+        <div id = "nav-welcoming">
+            <a>Welcome Back, Chinta!</a>
+        </div>
+        <a id = "nav-profil" href="Account-Detail.html"><img src="images/assets/green-dino.svg" alt="profil"></a>
+    </nav>
+    <main>
+        <p><img src="images/assets/123.svg">NUMBER</p>
+        <div>
+            <a onclick="sound('0');"><img src="images/assets/0.png"></a>
+            <a onclick="sound('1');"><img src="images/assets/1.png"></a>
+            <a onclick="sound('2');"><img src="images/assets/2.png"></a>
+            <a onclick="sound('3');"><img src="images/assets/3.png"></a>
+            <a onclick="sound('4');"><img src="images/assets/4.png"></a>
+        </div>
+        <div>
+            <a onclick="sound('5');"><img src="images/assets/5.png"></a>
+            <a onclick="sound('6');"><img src="images/assets/6.png"></a>
+            <a onclick="sound('7');"><img src="images/assets/7.png"></a>
+            <a onclick="sound('8');"><img src="images/assets/8.png"></a>
+            <a onclick="sound('9');"><img src="images/assets/9.png"></a>
+        </div>
+        <a href="Main-Menu.html"><button>Back to Menu</button></a>
+    </main>
+    <footer>
+        <div id="foot-left">
+            <p id="brand">DINOLEARN</p>
+            <p id="desc">Fun learning with Dinolearn!</p>
+            <p id="desc">Copyright &#169 2010-2020 Dinolearn Company All rights reserved.</p>
+        </div>
+        <div id="foot-right">
+            <p>FIND US ON:</p>
+            <a href = "https://web.facebook.com/chintaalya.6601/" target="_blank"> target="_blank"><img src="images/assets/facebook.svg" alt="facebook"></a>
+            <a href = "https://www.instagram.com/chintaalya_/" target="_blank"><img src="images/assets/instagram.svg" alt="instagram"></a>
+            <a href = "https://twitter.com/namakuchinta" target="_blank"><img src="images/assets/twitter.svg" alt="twitter"></a>
+        </div>
+    </footer>
+</body>
+</html>
