@@ -23,6 +23,10 @@ nav {
     align-items: center;
 }
 
+#nav-menu {
+    display: flex;
+}
+
 #nav-left,
 #nav-right {
     display: flex;
@@ -45,6 +49,14 @@ nav {
     padding: 0px 30px;
     font-family: Mitr;
     font-size: 100%;
+}
+
+#nav-menu li {
+    list-style: none;
+}
+
+#nav-right {
+    list-style: none;
 }
 
 .non-active {
@@ -82,6 +94,28 @@ nav {
 
 #nav-logout img:hover {
     filter: drop-shadow(0 0 5px grey);
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: lightblue;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.title {
+    display: none;
+}
+
+.title p {
+    font-family: Khand;
+    font-size: 30px;
 }
 
 
@@ -194,6 +228,46 @@ main a :hover {
 
 
 /* responsive */
+
+@media screen and (max-width: 1074px) {
+    body {
+        overflow-x: hidden;
+    }
+    .burger {
+        margin-right: 60px;
+        justify-content: right;
+        display: block;
+    }
+    .title {
+        justify-content: left;
+        margin-right: 10%;
+        display: flex;
+    }
+    .resp-items {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 130%;
+    }
+    #nav-menu,
+    #nav-right {
+        position: absolute;
+        right: 0px;
+        height: 192.075px;
+        top: 10.5vh;
+        background-color: white;
+        border-bottom: 3pt solid #D8EEFB;
+        display: flex;
+        justify-content: unset;
+        flex-direction: column;
+        column-gap: 1em;
+        align-items: center;
+        width: 100%;
+        transform: translateY(-150%);
+        transition: transform 0.5s ease;
+        margin-right: 0;
+    }
+}
 
 @media screen and (max-width: 768px) {
     #foot-left {
