@@ -11,46 +11,51 @@
     <link rel="stylesheet" href="styles/base1.css">
 </head>
 <body>
-    <div class="signup">
-        <form action="Verification-Page.html">
-            <div class="row">
-                <h1>
-                    Sign Up
-                </h1>
+    <div class="wrapper">
+        <div class="content">
+            <h1>Sign Up</h1>
+            <a href="index.html"><button class="back">
+                Back
+            </button></a>
+        </div>
+        <div class="form">
+            <div class="first">
+                <div class="inner">
+                    <div class="label">Name</div>
+                    <input type="text">
+                </div>
+                <div class="inner">
+                    <div class="label">Email</div>
+                    <input type="email">
+                </div>
             </div>
-            <div class="row">
-                <div class="left-column">
-                    <label>Name</label>
-                    <input type="text" name="username" class="person-name"></div>
-                <div class="right-column">
-                    <label>Email</label>
-                    <input type="email" name="Email" class="email-name"></div>
+            
+            <div class="second">
+                <div class="inner">
+                    <div class="label">Password</div>
+                    <input type="password">
+                </div>
             </div>
-            <div class="row">
-                <label>Password</label>
-                <input type="password" name="pass">
+
+            <div class="third">
+                <div class="inner">
+                    <div class="label">Password Confirmation</div>
+                    <input type="password">
+                </div>
             </div>
-            <div class="row">
-                <label>Password Confirmation</label>
-                <input type="password" name="pass">
-            </div>
-            <div class="row">
-                <div class="tos">
+
+            <div class="fourth">
+                <div class="inner">
                     <input id="cbx1" type="checkbox">
                     <span id="cbx1-label" for="cbx1" class="agreement">
                         I’ve read and agree with Terms of Service and our Privacy Policy
                     </span>
                 </div>
             </div>
-            <div class="row">            
-                <div class="tos">
-                    <button class="create">
-                        Create Account
-                    </button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="line1of3">
+
+            <a href="Verification-Page.html" class="buton"><div class="buton">Create Account</div></a>
+            <div class="sixth">
+                <div class="inner">
                     <p>
                         <span>
                             Already have an account?
@@ -64,7 +69,7 @@
                     </p>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
     <div class="sideback">
         <a href="index.html"><button class="back">

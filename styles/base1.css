@@ -1,161 +1,197 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    background-color: #d1e9ff;
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
 }
 
 body {
-    font-size: 1.5em;
-    line-height: 1.6;
-    font-weight: 400;
-    font-family: 'Poppins';
-    color:#108DFF; 
-    background-image: url('../images/bg/Signup.svg');
-    background-size:cover;
+    font-family: "NTR", cursive;
+    background: url('../images/bg/Signup.svg') no-repeat top center #d1e9ff;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     display: flex;
-}
-  
-form {
-    background-color: #FFFFFF;
-    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 50px;
-    height: 100%;
-    text-align: center;
+    justify-content: space-evenly;
 }
-  
-.signup {
-    background-color: #fff;
+
+.wrapper {
+    width: 100%;
+    max-width: 580px;
+    height: 564px;
+    padding: 20px;
+    background-color: white;
 	border-radius: 50px;
   	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
-	overflow: hidden;
-	width: 580px;
-    height: 540px;
-	max-width: 100%;
-    min-height: 480px;
-    margin-top: 78.5px;
-    margin-left: 139px;
+    overflow: hidden;
+    min-width: 448px;
+    display: flex;
+    flex-direction: column;
 }
 
-.row {
-    display: block;
-    width: 100%;
+.content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.left-column {
-    float: left;
-    width: 45%;
-}
-
-.right-column {
+.content .back {
     float: right;
-    width: 45%; 
-    margin-right: 26px;
+    font-family: 'NTR';
+    border-radius: 50px;
+	border: 1px solid #EC1E1E;
+	background-color: #EC1E1E;
+    color: #FFFFFF;
+    font-size: 18px;
+	font-weight: bold;
+	padding: 4px 45px;
+	letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    margin: 30px 5px 0;
+    display: none;
 }
 
-h1{
+
+.content h1 {
     text-transform: capitalize;
+    color: #108DFF;
     font-family: 'NTR';
     font-weight: bolder;
-    margin: 10px 0 10px 0;
     text-shadow: 1px 1px #108DFF;
     text-align: left;
+    font-size: 3em;
+    height: 58px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 30px;
 }
 
-label{
-    display: block;
-    text-align: left;
+.form {
     width: 100%;
-    font-size: large;
-    font-weight: 600;
-    margin-top: 2px;
-    margin-left: 15px;
-    margin-bottom: 5px;
+    margin: 25px 0;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"] {
+.first,
+.second,
+.third {
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
 	background-color: #ffffff;
     border-color: #9CDAFF;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-	padding: 12px 15px;
-	margin: 2px 14px 0 0;
-	width: 90%;
+    padding: 12px 15px;
+    margin: 0 0 0 24px;
+    width: 90%;
 }
 
-.agreement {
-    font-size: small;
+.form .label {
+    text-transform: capitalize;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    color: #108DFF;
+}
+
+.first .inner {
+    width: 47.5%;
+    float: left;
+    margin-right: 0;
+}
+
+.first .inner:last-child {
+    margin-right: 0;
+}
+
+.second {
+    clear: both;
+}
+
+.fourth{
+    font-size: large;
     text-align: justify;
     margin: 0 0 0 0;
 }
 
-.create {
-    border-radius: 20px;
-	border: 1px solid #108DFF;
-	background-color: #108DFF;
-	color: #FFFFFF;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-    transition: transform 80ms ease-in;
-    margin: 5px 5px 0;
-    width: 100%;
-}
-
-button:active {
-	transform: scale(0.95);
-}
-
-button:focus {
-	outline: none;
-}
-
-button.continue {
-    width: 80%;
-}
-
-.line1of3 {
-    float: left;
-    font-size: medium;
-}
-
-.tos {
-    width: 80%;
-    text-align: justify;
-    margin-top: 5px;
-}
-
-a {
-	color: #108DFF;
-	font-size: 16px;
-    text-decoration: none;
-    font-weight: bold;
-	margin: 15px 0;
+.fourth .inner {
+    display: flex;
+    align-items: center;
 }
 
 #cbx1 {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 0;
-    padding: 0;
-    border: 2px solid #108DFF;
-    border-radius: 2px;
+    width: 24px;
+    height: 24px;
+    margin-left: 26px;
 }
 
 #cbx1-label {
-    width: 90%;
-    display: inline-block;
+    color: #108DFF;
+    width: 60%;
     margin: 0;
+    margin-left: 10px;
     padding: 0;
     line-height: 1em;
+    font-size: medium;
+}
+
+.sixth {
+    color: #108DFF;
+    font-size: larger;
+    margin-left: 26px;
+}
+
+.sixth a {
+    color: #108DFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.buton {
+    background: #108dff;
+    color: white;
+    width: 65%;
+    padding: 5px;
+    margin: 14px 0px 14px 26px;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+a.buton {
+    text-decoration: none;
+}
+
+div.buton:hover {
+	background: rgb(63, 221, 24);
+}
+
+div.buton:active {
+	transform: translateY(2px);
+}
+
+.back:hover {
+    background: rgb(24, 159, 221);
+    border: 1px solid  rgb(24, 159, 221);
+}
+
+.back:active {
+	transform: translateY(2px);
 }
 
 .back {
@@ -172,11 +208,7 @@ a {
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
     height: min-content;
-}
-
-.sideback {
-    margin-top: 78.5px;
-    margin-left: 109px;
+    cursor: pointer;
 }
 
 .dinoimg {
@@ -203,22 +235,29 @@ a {
     margin-left: 40px;
     margin-top: 15px;
 }
-/* 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
 
-/* .col-75 {
-    float: left;
-    width: 10%;
-    margin-top: 6px;
+@media screen and (max-width: 1024px) {
+    .form {
+        margin-top: 8px;
+    }
+
+    .sideback {
+        display: none;
+    }
+
+    .content .back {
+        display: block;
+    }
 }
 
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-} */
+@media screen and (max-width: 648px) {
+    .wrapper {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 70vw;
+    }
+}
