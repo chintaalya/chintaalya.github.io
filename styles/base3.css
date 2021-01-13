@@ -62,11 +62,10 @@ h1{
     color: #FFFFFF;
     font-family: 'NTR';
     font-weight: 200;
-	font-size: 20px;
-	padding: 6px 45px;
+    font-size: 20px;
+	padding: 6px 160px;
 	letter-spacing: 1px;
     transition: transform 80ms ease-in;
-    width: 90%;
 
 }
 
@@ -85,11 +84,22 @@ button.continue {
 button.proceed:hover {
     background-color: rgb(63, 221, 24);
     border: 1px solid  rgb(63, 221, 24);
+    cursor: pointer;
+}
+
+button.backa:hover {
+    background-color: #EC1E1E;
+    color: #FFFFFF;
+    border: 3px solid  #EC1E1E;
+    cursor: pointer;
 }
 
 .tos {
     text-align: center;
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .back {
@@ -106,6 +116,27 @@ button.proceed:hover {
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
     height: min-content;
+}
+
+.tos .backa {
+    font-family: 'NTR';
+    border-radius: 50px;
+    background-color: unset;
+	border: 3px solid #EC1E1E;
+	color: #EC1E1E;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 6px 176px;
+	letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    margin: 5px 5px 0;
+    height: min-content;
+    text-decoration: none;
+    display: none;
+}
+
+.tos a {
+    text-decoration: none;
 }
 
 .dinoimg {
@@ -135,11 +166,15 @@ button.proceed:hover {
 
 @media screen and (max-width: 1184px) {
     .signup {
-        height: 50vh;
+        height: 60vh;
     }
 
     .form {
         margin-top: 8px;
+    }
+
+    .tos .backa {
+        display: block;
     }
 
     .sideback {
