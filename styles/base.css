@@ -101,14 +101,14 @@ input[type="password"] {
     cursor: pointer;
 }
 
-a {
+.column-right a {
     color: #108DFF;
     font-size: 16px;
     text-decoration: none;
     margin: 15px 0;
 }
 
-a:hover {
+.column-right a:hover {
     color: #56af3c;
 }
 
@@ -120,7 +120,7 @@ button {
     font-family: NTR;
     font-size: 16px;
     font-weight: bold;
-    padding: 4px 132px;
+    padding: 4px 0px;
     letter-spacing: 1px;
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
@@ -136,6 +136,7 @@ button:focus {
 
 button:hover {
     cursor: pointer;
+    background-color: #56af3c;
 }
 
 button.continue {
@@ -160,17 +161,34 @@ label {
     margin: 9px 7px 3px;
 }
 
-.row7 a {
+.row7 {
+    background-color: #FFF;
+    width: 80%;
     border-radius: 20px;
+    padding: 2px 0px;
+    transition: all 80ms ease-in;
+}
+
+.row7 a {
     color: #108DFF;
+    text-decoration: none;
     font-family: NTR;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.row7 a:hover {
-    background-color: #108DFF;
+.row7:hover {
     color: #fff;
-    padding: 4px 132px;
+    background-color: lightgreen;
+}
+
+.row7:active {
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 624px) {
+    .login {
+        width: 80vw;
+    }
 }
