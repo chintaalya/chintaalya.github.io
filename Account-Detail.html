@@ -19,16 +19,32 @@
         <div id = "nav-brand">
             <img src="images/assets/Logo.svg" alt="dinolearn-logo">
         </div>
-        <div id = "nav-menu">
-            <a class = "non-active" href="Main-Menu.html">LESSONS</a>
-            <a class = "non-active" href="Video-Page.html">VIDEOS</a>
-            <a class = "non-active" href="Feedback-Page.html">FEEDBACK</a>
+        <div class="hide">
+            <ul id = "nav-menu" class="nav-menu">
+                <li><a class = "non-active" href="Main-Menu.html">LESSONS</a></li>
+                <li><a class = "non-active" href="Video-Page.html">VIDEOS</a></li>
+                <li><a class = "non-active" href="Feedback-Page.html">FEEDBACK</a></li>
+                <li class="hidden"><a class="active" href="Account-Detail.html">PROFILE</a></li>
+                <li class="hidden"><a class = "non-active" href="index.html">LOGOUT</a></li>
+            </ul>
+            <div class="nav-right">
+                <a id = "nav-profil" href="Account-Detail.html"><img src="images/assets/green-dino.svg" alt="profil"></a>
+                <div id = "nav-welcoming">
+                    <a>Welcome Back, Chinta!</a>
+                </div>
+                <a id = "nav-logout" href="index.html"><img src="images/assets/logout.svg" alt="logout"></a>
+            </div>
         </div>
-        <a id = "nav-logout" href="index.html"><img src="images/assets/logout.svg" alt="logout"></a>
-        <div id = "nav-welcoming">
-            <a>Welcome Back, Chinta!</a>
+        <div class="resp-items">
+            <div class="title">
+                <p>DINOLEARN</p>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </div>
-        <a id = "nav-profil" href="Account-Detail.html"><img src="images/assets/green-dino.svg" alt="profil"></a>
     </nav>
     <main>
         <form class="left">
@@ -55,4 +71,5 @@
         </form>
     </main>
 </body>
+<script src="inside.js"></script>
 </html>
