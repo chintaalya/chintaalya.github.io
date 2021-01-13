@@ -17,6 +17,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
     <nav>
         <div class="nav-brand">
@@ -25,9 +26,9 @@
         </div>
         <ul class="nav-menu">
             <li><a href="#home" class="active">HOME</a></li>
-            <li><a href="#about" class="non-active">ABOUT</a></li>
-            <li><a href="#programs" class="non-active">PROGRAMS</a></li>
-            <li><a href="#contactus" class="non-active">CONTACT US</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#programs">PROGRAMS</a></li>
+            <li><a href="#contactus">CONTACT US</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -98,18 +99,17 @@
             <div class="contact-right">
                 <div class="contactus-form">
                     <p class="mid">Drop your question or feedback here!</p>
-                    <div class="row">
-                        <p>E - mail</p>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div class="row">
-                        <p>Messages</p>
-                        <textarea name="message" cols="30" rows="10" style="resize: none;"></textarea>
-                    </div>
-                    <a href="index.html"><button class="send">Send</button></a>
+                    <form id="form">
+                        <label for="email">E - mail</label>
+                        <input type="email" name="email" id="email" placeholder="example: dinolearn@domain.id" required>
+                        <label for="message">Messages</p>
+                        <textarea id="message" name="message" cols="30" rows="10" style="resize: none;"placeholder="Write your message here.."required></textarea>
+                        <button class="send" onclick="validation()">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
+        <div id="overlay"></div>
     </main>
     <footer class="footer">
         <div id="foot-left">
@@ -118,12 +118,19 @@
             <p id="desc">Copyright &#169 2010-2020 Dinolearn Company All rights reserved.</p>
         </div>
         <div id="foot-right">
-            <p>FIND US ON:<p>
-            <ul>
-                <li><a href="https://web.facebook.com/chintaalya.6601/" target="_blank"><img src="images/assets/facebook.svg" alt="facebook"></a></li>
-                <li><a href="https://www.instagram.com/chintaalya_/" target="_blank"><img src="images/assets/instagram.svg" alt="instagram"></a></li>
-                <li><a href="https://twitter.com/namakuchinta" target="_blank"><img src="images/assets/twitter.svg" alt="twitter"></a></li>
-            </ul>
+            <p>FIND US ON:
+                <p>
+                    <ul>
+                        <li>
+                            <a href="https://web.facebook.com/chintaalya.6601/" target="_blank"><img src="images/assets/facebook.svg" alt="facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/chintaalya_/" target="_blank"><img src="images/assets/instagram.svg" alt="instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/namakuchinta" target="_blank"><img src="images/assets/twitter.svg" alt="twitter"></a>
+                        </li>
+                    </ul>
         </div>
     </footer>
     <script>
@@ -133,6 +140,15 @@
         });
     </script>
     <script src="app.js"></script>
-    </body>
-    <!-- check -->
+    <!-- <script>
+        function validation(){
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var overlay = document.getElementById('overlay')
+            if ((email !== "") && (message !== "")){
+            }
+        }
+    </script> -->
+</body>
+
 </html>

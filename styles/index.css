@@ -1,4 +1,6 @@
-*{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +15,9 @@ body {
     overflow: hidden;
 }
 
+
 /* navbar sect */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -56,7 +60,7 @@ nav {
     margin-right: 100px;
 }
 
-.nav-menu li{
+.nav-menu li {
     list-style: none;
 }
 
@@ -72,15 +76,20 @@ nav {
     cursor: pointer;
 }
 
-.burger div{
+.burger div {
     width: 25px;
     height: 3px;
-    background-color:lightblue;
+    background-color: lightblue;
     margin: 5px;
     transition: all 0.3s ease;
 }
+
+
 /* navbar sect */
+
+
 /* footer sect */
+
 .footer {
     background-color: #D8EEFB;
     display: flex;
@@ -134,7 +143,6 @@ nav {
     align-items: center;
 }
 
-
 #foot-right img {
     width: 25px;
     padding: 0 10px 10px 10px;
@@ -143,9 +151,16 @@ nav {
 #foot-right img:hover {
     filter: drop-shadow(0 0 5px grey);
 }
+
+
 /* footer sect */
+
+
 /* main sect */
+
+
 /*home*/
+
 #home {
     width: 100%;
     height: 100vh;
@@ -215,7 +230,9 @@ button.login {
     transition: transform 80ms ease-in;
 }
 
+
 /*about*/
+
 #about {
     background: url("../images/bg/Bgpart2.svg") #D8EEFB;
     width: 100%;
@@ -250,7 +267,9 @@ button.login {
     margin: 0px 10px 0px 0px;
 }
 
+
 /*programs*/
+
 #programs {
     width: 100%;
     height: 100vh;
@@ -262,6 +281,7 @@ button.login {
     height: 500px;
     padding: 200px 0 100px 0;
 }
+
 #nav-menu a {
     color: #074074;
 }
@@ -332,7 +352,15 @@ button.login {
 #listening img {
     width: 30%;
 }
+
+
 /*contactus*/
+
+#email,
+#message {
+    outline-style: none;
+}
+
 #contactus {
     width: 100%;
     height: 100vh;
@@ -343,6 +371,7 @@ button.login {
     justify-content: space-around;
     align-items: center;
 }
+
 .contact-left {
     display: flex;
     flex-direction: column;
@@ -386,20 +415,21 @@ button.login {
     margin-block-start: 5px;
     margin-block-end: 14px;
 }
-.row {
+
+.contactus-form form {
     display: block;
     width: 100%;
     clear: both;
 }
 
-.row p {
+.contactus-form form label {
     font-weight: 600;
     margin-left: 80px;
     margin-block-start: 4px;
     margin-block-end: 2px;
 }
 
-.row input[type="email"] {
+.contactus-form form input[type="email"] {
     background-color: #ffffff;
     border-color: #9CDAFF;
     border-style: solid;
@@ -409,9 +439,10 @@ button.login {
     margin: 2px 14px 0 0;
     width: 60%;
     margin-inline-start: 70px;
+    font-family: 'Mulish';
 }
 
-.row textarea[name="message"] {
+.contactus-form form textarea[name="message"] {
     background-color: #ffffff;
     border-color: #9CDAFF;
     border-style: solid;
@@ -422,9 +453,10 @@ button.login {
     width: 60%;
     height: 40px;
     margin-inline-start: 70px;
+    font-family: 'Mulish';
 }
 
-button.send {
+.contactus-form form button.send {
     font-family: 'NTR';
     font-weight: 700;
     border-radius: 20px;
@@ -439,7 +471,12 @@ button.send {
     width: 65%;
 }
 
+
+/* popup */
+
+
 /*misc*/
+
 main svg {
     background-color: #FFFFFF;
     margin: 0;
@@ -458,6 +495,11 @@ button:active {
     transform: scale(0.95);
 }
 
+button:hover {
+    cursor: pointer;
+    box-shadow: 2px 5px 5px #888888;
+}
+
 button:focus {
     outline: none;
 }
@@ -465,6 +507,7 @@ button:focus {
 button.continue {
     width: 80%;
 }
+
 #foot-right img:hover {
     filter: drop-shadow(0 0 5px grey);
 }
@@ -473,13 +516,17 @@ button.continue {
     color: #074074;
 }
 
-.nav-menu a:hover, .nav-menu a.active{
+.nav-menu a:hover,
+.nav-menu a.active {
     color: #56AF2C;
 }
+
 
 /* .nav-menu a.active {
     color: #56AF2C;
 } */
+
+
 /* li.active a{
     color: red;
 } */
@@ -487,9 +534,8 @@ button.continue {
 
 /* main sect */
 
-
 @media screen and (max-width: 1300px) {
-    .nav-menu{
+    .nav-menu {
         width: 45%;
         transition: all 0.3s ease;
     }
@@ -501,99 +547,97 @@ button.continue {
         flex-direction: column;
         align-items: center;
     }
-    #programs{
+    #programs {
         padding-top: 140px;
         padding-bottom: 140px;
     }
     #programs h3 {
         margin-bottom: 30px;
     }
-    #watching .part1{
+    #watching .part1 {
         font-size: 16px;
     }
-    #listening .part2{
+    #listening .part2 {
         font-size: 16px;
     }
-
 }
 
 @media screen and (max-width: 1024px) {
-    .nav-menu{
+    .nav-menu {
         width: 50%;
         transition: all 0.3s ease;
     }
-    #home{
+    #home {
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;
         align-items: center;
         /* height: 94vh; */
     }
     #home img {
         padding-top: 70px;
     }
-    .homeright{
+    .homeright {
         margin-right: 0px;
     }
     .judul h1 {
         margin-top: -100px;
     }
-    #about{
+    #about {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #about div h1{
+    #about div h1 {
         margin-top: 70px;
         font-size: 24px;
     }
-    #about div p{
+    #about div p {
         font-size: 20px;
     }
-    #about img{
+    #about img {
         margin-top: -140px;
         width: 38%;
     }
-    #programs{
+    #programs {
         padding-bottom: 140px;
     }
-    #watching .part1{
+    #watching .part1 {
         font-size: 17px;
     }
-    #listening .part2{
+    #listening .part2 {
         font-size: 17px;
         margin-top: 40px;
     }
-    #contactus{
+    #contactus {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-    .contact-right{
+    .contact-right {
         margin: 0%;
     }
-    .contact-left{
+    .contact-left {
         margin-top: 200px;
     }
-    .contact-left p{
+    .contact-left p {
         font-size: 30px;
         margin-top: 50px;
         margin-left: 30px;
     }
-    .contact-left img{
+    .contact-left img {
         width: 240px;
     }
-    .footer{
+    .footer {
         padding-top: 150px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
-    body{
+    body {
         overflow-x: hidden;
     }
-    .nav-menu{
+    .nav-menu {
         position: absolute;
         right: 0px;
         height: 192.075px;
@@ -610,7 +654,7 @@ button.continue {
         transition: transform 0.5s ease;
         margin-right: 0;
     }
-    .nav-menu li{
+    .nav-menu li {
         opacity: 0;
         padding: 10px;
     }
@@ -621,32 +665,32 @@ button.continue {
         padding-right: 0;
         margin-right: 62px;
     }
-    
     .nav-brand p {
         margin-left: 38px;
+        padding-left: 35%;
     }
-    .burger{
+    .burger {
         margin-right: 60px;
         display: block;
     }
     #foot-left {
         margin-left: 40px;
     }
-    #desc{
+    #desc {
         font-size: small;
     }
     #foot-right {
         margin-right: 40px;
         margin-left: 40px;
     }
-    #about div h1{
+    #about div h1 {
         margin-top: 70px;
         font-size: 18px;
     }
-    #about div p{
+    #about div p {
         font-size: 18px;
     }
-    #programs{
+    #programs {
         padding-top: 135px;
         padding-bottom: 145px;
     }
@@ -655,14 +699,14 @@ button.continue {
         flex-direction: column;
         justify-content: space-around;
     }
-    #watching .part1{
+    #watching .part1 {
         font-size: 14px;
     }
-    #listening .part2{
+    #listening .part2 {
         font-size: 14px;
         margin-top: 60px;
     }
-    #contactus{
+    #contactus {
         height: 88vh;
     }
     .contact-left p {
@@ -673,67 +717,69 @@ button.continue {
     .contact-left img {
         width: 160px;
     }
-    .footer{
+    .footer {
         padding-top: 120px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    #home img{
+    #home img {
         width: 90%;
         padding-top: 100px;
     }
-    #about img{
+    #about img {
         margin-top: -140px;
         width: 50%;
     }
-    #watching .part1{
+    #watching .part1 {
         font-size: 13px;
     }
-    #listening .part2{
+    #listening .part2 {
         font-size: 13px;
         margin-top: 50px;
     }
-    .contactus-form{
+    .contactus-form {
         width: 75vw;
     }
-    .row p{
+    .contactus-form form p {
         margin-left: 52px;
     }
-    .row input[type="email"] {
+    .contactus-form form input[type="email"] {
         margin-inline-start: 52px;
         width: 65%;
     }
-    .row textarea[name="message"] {
+    .contactus-form form textarea[name="message"] {
         margin-inline-start: 52px;
         width: 65%;
     }
-    .footer{
+    .footer {
         padding-top: 120px;
     }
 }
 
-.nav-active{
+.nav-active {
     transform: translateY(0%);
 }
 
-@keyframes navLinkFade{
-    from{
+@keyframes navLinkFade {
+    from {
         opacity: 0;
         transform: translateY(-50px);
     }
-    to{
+    to {
         opacity: 1;
         transform: translateY(0px);
     }
 }
 
-.togle .line1{
+.togle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
-.togle .line2{
+
+.togle .line2 {
     opacity: 0;
 }
-.togle .line3{
+
+.togle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
