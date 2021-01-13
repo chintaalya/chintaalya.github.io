@@ -17,13 +17,15 @@
     <nav>
         <div id="nav-left">
             <img src="images/assets/Logo.svg" alt="dinolearn-logo">
-            <div id="nav-menu">
+            <ul id="nav-menu" class="nav-menu">
                 <li><a class="active" href="Main-Menu.html">LESSONS</a></li>
-                <li><a class="non-active" href="Video-Page.html">VIDEOS</a></li>
-                <li><a class="non-active" href="Feedback-Page.html">FEEDBACK</a></li>
-            </div>
+                <li><a href="Video-Page.html">VIDEOS</a></li>
+                <li><a href="Feedback-Page.html">FEEDBACK</a></li>
+                <li class="hidden"><a href="Account-Detail.html">PROFILE</a></li>
+                <li class="hidden"><a href="index.html">LOGOUT</a></li>
+            </ul>
         </div>
-        <div id="nav-right">
+        <ul id="nav-right" class="nav-right">
             <li>
                 <a id="nav-profil" href="Account-Detail.html"><img src="images/assets/green-dino.svg" alt="profil"></a>
             </li>
@@ -31,7 +33,7 @@
             <li>
                 <a id="nav-logout" href="index.html"><img src="images/assets/logout.svg" alt="logout"></a>
             </li>
-        </div>
+        </ul>
         <div class="resp-items">
             <div class="title">
                 <p>DINOLEARN</p>
@@ -74,7 +76,7 @@
                     </ul>
         </div>
     </footer>
-    <script src="app.js"></script>
+    <script src="inside.js"></script>
 </body>
 
 </html>
