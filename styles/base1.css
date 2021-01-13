@@ -54,6 +54,10 @@ body {
     display: none;
 }
 
+.content .back:focus{
+    outline: none;
+}
+
 
 .content h1 {
     text-transform: capitalize;
@@ -159,6 +163,10 @@ body {
     text-decoration: none;
 }
 
+.sixth a:hover {
+    color: #56af3c;
+}
+
 div.buton {
     background: #108dff;
     color: white;
@@ -182,7 +190,7 @@ div.buton:hover {
 }
 
 div.buton:active {
-	transform: translateY(2px);
+	transform: scale(0.95);
 }
 
 .back:hover {
@@ -191,7 +199,11 @@ div.buton:active {
 }
 
 .back:active {
-	transform: translateY(2px);
+	transform: scale(0.95);
+}
+
+.back:focus {
+    outline: none;
 }
 
 .back {
@@ -252,7 +264,7 @@ div.buton:active {
 
 @media screen and (max-width: 648px) {
     .wrapper {
-        width: 80vw;
+        width: 70vw;
     }
 }
 

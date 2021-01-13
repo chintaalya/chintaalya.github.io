@@ -1,19 +1,19 @@
-html, body {
-    height: 100%;
+body {
+    height: 100vh;
     width: 100%;
     margin: 0px;
     background-color: #d1e9ff;
-}
-
-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
     font-family: 'Poppins';
-    color:#108DFF; 
+    color:#108DFF;  
     background-image: url('../images/bg/Forgetpage.svg');
     background-size:cover;
-    display: flex;
 }
 
 form {
@@ -25,7 +25,6 @@ form {
     padding: 0px 50px;
     height: 100%;
     text-align: left;
-
 }
 
 .forget {
@@ -37,12 +36,12 @@ form {
     height: 400px;
 	max-width: 100%;
     min-height: 420px;
-    margin-top: 128.5px;
-    margin-left: 99px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .row {
-    display: block;
     width: 100%;
 }
 
@@ -57,11 +56,11 @@ h1{
 }
 
 .row2 {
-    display: block;
     width: 80%;
     margin-top: 10px;
     margin-bottom: 16px;
-    margin-left: 50px;
+    text-align: center;
+    margin-right: 20px;
 }
 
 .proceed {
@@ -75,9 +74,7 @@ h1{
 	padding: 6px 45px;
 	letter-spacing: 1px;
     transition: transform 80ms ease-in;
-    margin-left: 58px;
     width: 90%;
-
 }
 
 button:active {
@@ -92,15 +89,17 @@ button.continue {
     width: 80%;
 }
 
+button:hover {
+    background-color: #56af3c;
+}
+
 .tos {
-    width: 80%;
     text-align: center;
     margin-top: 5px;
 }
 
 .sidefront {
-    margin-top: 98.5px;
-    margin-left: 109px;
+    padding-bottom: 54px;
 }
 
 .dinoimg {
@@ -130,4 +129,16 @@ button.continue {
     display: block;
     margin-left: 40px;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 1124px) {
+    .sidefront {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .forget {
+        width: 80vw;
+    }
 }
