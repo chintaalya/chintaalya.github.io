@@ -14,18 +14,9 @@ body {
     background-image: url('../images/bg/Signup.svg');
     background-size:cover;
     display: flex;
-}
-
-form {
-    background-color: #FFFFFF;
-    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 50px;
-    height: 100%;
-    text-align: center;
-
+    justify-content: space-evenly;
 }
 
 .signup {
@@ -38,13 +29,15 @@ form {
     height: 440px;
 	max-width: 100%;
     min-height: 420px;
-    margin-top: 148.5px;
-    margin-left: 189px;
-    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    text-align: center;
 }
 
 .row {
-    display: block;
     width: 100%;
 }
 
@@ -53,18 +46,15 @@ h1{
     text-transform: capitalize;
     font-family: 'Poppins';
     font-weight: bolder;
-    margin: 10px 0 10px 5px;
     text-shadow: 1px 1px #108DFF;
-    text-align: center;
 }
 
 .row2 {
-    display: block;
     width: 80%;
-    margin-top: 10px;
     margin-bottom: 16px;
-    margin-right: 15px;
+    margin-right: 20px;
 }
+
 .proceed {
     border-radius: 40px;
 	border: 1px solid #108DFF;
@@ -76,7 +66,6 @@ h1{
 	padding: 6px 45px;
 	letter-spacing: 1px;
     transition: transform 80ms ease-in;
-    margin-left: 54px;
     width: 90%;
 
 }
@@ -93,8 +82,12 @@ button.continue {
     width: 80%;
 }
 
+button.proceed:hover {
+    background-color: rgb(63, 221, 24);
+    border: 1px solid  rgb(63, 221, 24);
+}
+
 .tos {
-    width: 80%;
     text-align: center;
     margin-top: 5px;
 }
@@ -113,11 +106,6 @@ button.continue {
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
     height: min-content;
-}
-
-.sideback {
-    margin-top: 78.5px;
-    margin-left: 109px;
 }
 
 .dinoimg {
@@ -143,4 +131,34 @@ button.continue {
     display: block;
     margin-left: 40px;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 1184px) {
+    .signup {
+        height: 50vh;
+    }
+
+    .form {
+        margin-top: 8px;
+    }
+
+    .sideback {
+        display: none;
+    }
+
+    .row1 .back {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .signup {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .signup {
+        width: 70vw;
+    }
 }
