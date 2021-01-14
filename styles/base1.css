@@ -23,8 +23,8 @@ body {
     height: 564px;
     padding: 20px;
     background-color: white;
-	border-radius: 50px;
-  	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    box-shadow: 27px 3px 110px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     min-width: 448px;
     display: flex;
@@ -42,22 +42,21 @@ body {
     float: right;
     font-family: 'NTR';
     border-radius: 50px;
-	border: 1px solid #EC1E1E;
-	background-color: #EC1E1E;
+    border: 1px solid #EC1E1E;
+    background-color: #EC1E1E;
     color: #FFFFFF;
     font-size: 18px;
-	font-weight: bold;
-	padding: 4px 45px;
-	letter-spacing: 1px;
+    font-weight: bold;
+    padding: 4px 45px;
+    letter-spacing: 1px;
     transition: transform 80ms ease-in;
     margin: 30px 5px 0;
     display: none;
 }
 
-.content .back:focus{
+.content .back:focus {
     outline: none;
 }
-
 
 .content h1 {
     text-transform: capitalize;
@@ -90,7 +89,7 @@ body {
 .form input[type="text"],
 .form input[type="email"],
 .form input[type="password"] {
-	background-color: #ffffff;
+    background-color: #ffffff;
     border-color: #9CDAFF;
     border-style: solid;
     border-width: 1px;
@@ -98,9 +97,10 @@ body {
     padding: 12px 15px;
     margin: 0 0 0 24px;
     width: 90%;
+    outline-style: none;
 }
 
-.form .label {
+.form label {
     text-transform: capitalize;
     text-align: left;
     width: 100%;
@@ -124,7 +124,7 @@ body {
     clear: both;
 }
 
-.fourth{
+.fourth {
     font-size: large;
     text-align: justify;
     margin: 0 0 0 0;
@@ -186,20 +186,20 @@ a.buton {
 }
 
 div.buton:hover {
-	background: rgb(63, 221, 24);
+    background: rgb(63, 221, 24);
 }
 
 div.buton:active {
-	transform: scale(0.95);
+    transform: scale(0.95);
 }
 
 .back:hover {
     background: rgb(24, 159, 221);
-    border: 1px solid  rgb(24, 159, 221);
+    border: 1px solid rgb(24, 159, 221);
 }
 
 .back:active {
-	transform: scale(0.95);
+    transform: scale(0.95);
 }
 
 .back:focus {
@@ -210,13 +210,13 @@ div.buton:active {
     float: right;
     font-family: 'NTR';
     border-radius: 50px;
-	border: 1px solid #EC1E1E;
-	background-color: #EC1E1E;
+    border: 1px solid #EC1E1E;
+    background-color: #EC1E1E;
     color: #FFFFFF;
     font-size: 18px;
-	font-weight: bold;
-	padding: 8px 45px;
-	letter-spacing: 1px;
+    font-weight: bold;
+    padding: 8px 45px;
+    letter-spacing: 1px;
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
     height: min-content;
@@ -252,11 +252,9 @@ div.buton:active {
     .form {
         margin-top: 8px;
     }
-
     .sideback {
         display: none;
     }
-
     .content .back {
         display: block;
     }
