@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -10,9 +11,9 @@ body {
     line-height: 1.6;
     font-weight: 400;
     font-family: 'Poppins';
-    color:#108DFF; 
+    color: #108DFF;
     background-image: url('../images/bg/Signup.svg');
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,13 +22,13 @@ body {
 
 .signup {
     background-color: #fff;
-	border-radius: 50px;
-  	box-shadow: 27px 3px 110px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    box-shadow: 27px 3px 110px rgba(0, 0, 0, 0.2);
     position: relative;
-	overflow: hidden;
-	width: 480px;
+    overflow: hidden;
+    width: 480px;
     height: 440px;
-	max-width: 100%;
+    max-width: 100%;
     min-height: 420px;
     display: flex;
     flex-direction: column;
@@ -41,7 +42,7 @@ body {
     width: 100%;
 }
 
-h1{
+h1 {
     font-size: 40px;
     text-transform: capitalize;
     font-family: 'Poppins';
@@ -57,24 +58,23 @@ h1{
 
 .proceed {
     border-radius: 40px;
-	border: 1px solid #108DFF;
-	background-color: #108DFF;
+    border: 1px solid #108DFF;
+    background-color: #108DFF;
     color: #FFFFFF;
     font-family: 'NTR';
     font-weight: 200;
     font-size: 20px;
-	padding: 6px 160px;
-	letter-spacing: 1px;
+    padding: 6px 160px;
+    letter-spacing: 1px;
     transition: transform 80ms ease-in;
-
 }
 
 button:active {
-	transform: scale(0.95);
+    transform: scale(0.95);
 }
 
 button:focus {
-	outline: none;
+    outline: none;
 }
 
 button.continue {
@@ -83,15 +83,20 @@ button.continue {
 
 button.proceed:hover {
     background-color: rgb(63, 221, 24);
-    border: 1px solid  rgb(63, 221, 24);
+    border: 1px solid rgb(63, 221, 24);
     cursor: pointer;
 }
 
 button.backa:hover {
     background-color: #EC1E1E;
     color: #FFFFFF;
-    border: 3px solid  #EC1E1E;
+    border: 3px solid #EC1E1E;
     cursor: pointer;
+}
+
+button.back:hover {
+    background-color: rgb(24, 159, 221);
+    border: 1px solid rgb(24, 159, 221);
 }
 
 .tos {
@@ -106,13 +111,13 @@ button.backa:hover {
     float: right;
     font-family: 'NTR';
     border-radius: 50px;
-	border: 1px solid #EC1E1E;
-	background-color: #EC1E1E;
-	color: #FFFFFF;
-	font-size: 18px;
-	font-weight: bold;
-	padding: 8px 45px;
-	letter-spacing: 1px;
+    border: 1px solid #EC1E1E;
+    background-color: #EC1E1E;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 45px;
+    letter-spacing: 1px;
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
     height: min-content;
@@ -122,12 +127,12 @@ button.backa:hover {
     font-family: 'NTR';
     border-radius: 50px;
     background-color: unset;
-	border: 3px solid #EC1E1E;
-	color: #EC1E1E;
-	font-size: 18px;
-	font-weight: bold;
-	padding: 6px 176px;
-	letter-spacing: 1px;
+    border: 3px solid #EC1E1E;
+    color: #EC1E1E;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 176px;
+    letter-spacing: 1px;
     transition: transform 80ms ease-in;
     margin: 5px 5px 0;
     height: min-content;
@@ -168,19 +173,15 @@ button.backa:hover {
     .signup {
         height: 60vh;
     }
-
     .form {
         margin-top: 8px;
     }
-
     .tos .backa {
         display: block;
     }
-
     .sideback {
         display: none;
     }
-
     .row1 .back {
         display: block;
     }
